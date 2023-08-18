@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>2. Area Based Conservation</title>
+    <title>3. Setting Priorities for Conservation</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jasper Slingsby, BIO3014S" />
     <meta name="date" content="2023-08-18" />
-    <script src="2_AreaBasedConservation_files/header-attrs/header-attrs.js"></script>
+    <script src="3_ThreatAssessments_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
@@ -13,7 +13,7 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# 2. Area Based Conservation
+# 3. Setting Priorities for Conservation
 ]
 .author[
 ### Jasper Slingsby, BIO3014S
@@ -32,214 +32,44 @@ class: center, middle, inverse, title-slide
 
 
 
-class: center
-
-## "Protecting area"
-
-&lt;img src="images/landcover_glad.png" width="85%" /&gt;
-
-Habitat loss is the biggest driver of biodiversity loss.
-
-.footnote[Land Cover from [Hansen et al. 2022](https://doi.org/10.1088/1748-9326/ac46ec). Interactive online [***here.***](https://glad.earthengine.app/view/global-land-cover-land-use-v1)]
-
----
-class: center
-
-##  "Protecting area" 
-
-&lt;img src="images/protected_areas_map.png" width="70%" /&gt;
-
-Habitat protection should be the most effective means to stem this loss.
-
-.footnote[Global protected areas from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
-
+History...
+- Species Threat Assessments
+- IUCN
+- Ecosystem Threat Assessments
+  - SA vs IUCN RLE
+  
 ---
 
-layout: false
+Prioritizing conservation
+
+- Mapping biodiversity…
+- Local vs Global priorities
+
+- Species
+    - Mapping
+    - Threat assessments (and protection levels)
+          - Spatial traits
+          - Non-spatial traits? E.g. Do mutualisms matter?
+                - Need to consider the type of threat (Murray et al. 2014)
+          - Problems with basing conservation priority on (threatened) species?
+              - Not all species have been assessed
+              - Not all species have been identified and named!
+              - Species locality data are imperfect
+              - We are bias in our selection of species (“charismatic” megafauna vs nondescript etc species like sedges)
+
+    - Ecosystems
+          - Mapping 
+          - Threats
+
+
+Conservation planning
+  - Targets
+  - Spatial products
+  - Optimization algorithms
+  - GIS vs ecology?
+
+“It is a hard reality that virtually all countries, no matter how well resourced, take conservation and land use decisions based on highly patchy and imperfect data - if indeed any data at all.” - Barnard et al. 2017
 
-.pull-left[
-## Why protect area?
-
-#### The number of species increases with area...
-
-**The species-area relationship** is described by the **species-area curve**, a graphical relationship in which increases in area ( `\(A\)` ) are associated with increases in the number of species ( `\(S\)` ). 
-
-The curve can be described by the equation `\(S = cA^z\)`, where `\(c\)` and `\(z\)` are constants fitted to the data.
-
-Taking the logarithm of both sides makes the relationship linear `\(log S = log C + z log A\)`.
-
-The relationship holds for a wide range of ecosystems with many different types of organisms.
-]
-
-.pull-right[
-
-&lt;img src="images/species_area_curve.gif" width="75%" style="display: block; margin: auto;" /&gt;
-
-.footnote[Image: [**Wikipedia**](https://en.wikipedia.org/wiki/Species%E2%80%93area_relationship#)]
-
-]
-
----
-
-class: center
-
-## Most agree that protecting area is a good idea...
-
-&lt;img src="images/kunming.png" width="70%" /&gt;
-
-.footnote[The signing of the [**Global Biodiversity Framework**, Dec 2022](https://www.cbd.int/gbf/)]
-
----
-
-## The [Global Biodiversity Framework](https://www.cbd.int/gbf/)
-
-#### 4 goals for 2050 and 23 targets for 2030
-
-The first part of Goal A:
-&gt; _"The integrity, connectivity and resilience of all ecosystems are maintained, enhanced, or restored, substantially **increasing the area** of natural ecosystems by 2050"_
-
-Targets 1, 2 and 3 are all area-centric:
-&gt; Target 1: _"...to bring the loss of **areas** of high biodiversity importance...close to zero by 2030..."_
-
-&gt; Target 2: _"...by 2030 at least 30 per cent of **areas** of degraded terrestrial, inland water, and marine and coastal ecosystems are under effective restoration..."_
-
-&gt; Target 3: _"...by 2030 at least 30 per cent of terrestrial and inland water areas, and of marine and coastal areas... are effectively conserved and managed [in] **protected areas** and other effective area-based conservation measures..."_ 
-
-[***Target 3 is the so-called 30x30 goal***](https://www.30x30.solutions/)
-
----
-
-class: center, middle
-
-## But there are many challenges:
-
-We can't protect it all...
-
-Where or how much land do we need to protect? 
-
-What should we protect?
-
-How do we balance trade-offs with other human needs for (or rights to!) land?
-
-What is "protection"? How do we ensure it is effective?
-
-How do we reduce unecessary loss outside protected areas?
-
----
-
-layout: false
-
-.pull-left[
-## The number of species increases with area, but...
-
-...the species-area relationship varies depending on the **area** being sampled... 
-
-&lt;img src="images/fynbos.png" width="70%" style="display: block; margin: auto;" /&gt;
-
-In fact, we often compare the diversity of different regions using species-area curves...
-
-]
-
-.pull-right[
-
-&lt;img src="images/cowling2015.png" width="70%" style="display: block; margin: auto;" /&gt;
-
-.footnote[[Cowling et al. 2015](http://dx.doi.org/10.1111/jbi.12429) comparison of Med-Type Ecosystems.]
-]
-
----
-
-Learning outcomes
-
-- Big frameworks
-    - 30 by 30, Nature needs half, etc
-- The logic (species-area curves etc)
-- Protected areas and 'Other effective area-based conservation measures' (OECMs)
-- Difficulties, risks and trade-offs
-    - How to prioritise?
-    - Alternative land uses
-    - Social equity
-    - Protected area effectiveness 
-        - Varied interpretations of protected areas and LULC within PAs
-        - Management effectiveness and degradation
-        - IAPs
-        - Tourist impacts
-        - Lack of income
-
-
----
-
-layout: false
-
-.pull-left[
-## The number of species increases with area...
-
-But, the species-area relationship varies depending on the **area** being sampled...
-
-We often compare the diversity of different regions using species-area curves (usually on log-log axes so the curves are linear) - e.g. Cowling et al. 2015
-
-&lt;img src="images/fynbos.png" width="98%" style="display: block; margin: auto auto auto 0;" /&gt;
-
-]
-
-.pull-right[
-
-&lt;img src="images/cowling2015.png" width="75%" style="display: block; margin: auto;" /&gt;
-
-]
-
----
-
-## "Protecting area"
-
-.pull-left[
-
-### Global Land Cover
-
-&lt;img src="images/landcover_glad.png" width="100%" /&gt;
-
-Habitat loss is the biggest driver of biodiversity loss.
-
-.footnote[Global Land Cover from [Hansen et al. 2022](https://doi.org/10.1088/1748-9326/ac46ec). Interactive online [***here.***](https://glad.earthengine.app/view/global-land-cover-land-use-v1)]
-
-]
-
-.pull-right[
-
-### Global Protected Areas
-
-&lt;img src="images/protected_areas_map.png" width="80%" /&gt;
-
-Habitat protection should be the most effective means to stem this loss.
-
-.footnote[from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
-]
----
-
-## Protected area effectiveness - LULC
-
-.pull-left[ 
-There has been drastic cropland expansion over the past 2 decades in many protected areas of the world ([Meng et al. 2023](http://dx.doi.org/10.1038/s41893-023-01093-w)).
-
-The term "paper parks" ...
-
-.footnote[LULC = Land use and land cover change]
-]
-
-.pull-right[
-&lt;img src="images/meng_2023_cropland.webp" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
-]
-
----
-
-## Protected area effectiveness - LULC
-
-.left-column[ 
-.footnote[LULC = Land use and land cover change]
-]
-.right-column[
-&lt;img src="images/meng_2023_cropland.webp" width="70%" style="display: block; margin: auto auto auto 0;" /&gt;
-]
 ---
 
 class: center, middle
@@ -252,20 +82,196 @@ text-color: white
 
 ---
 
-.pull-left[
-## "The Blue Marble"
+background-color: black
+background-image: url("images/earthrise.png")
+background-size: contain
 
-&lt;img src="images/blue_marble.jpg" width="90%" style="display: block; margin: auto auto auto 0;" /&gt;
+text-color: white
+
+---
+
+## "The Blue Marble" and "Earthrise"
+
+.pull-left[
+
+&lt;img src="images/blue_marble.jpg" width="82%" style="display: block; margin: auto auto auto 0;" /&gt;
+
+.footnote[Photo taken from the NASA Apollo 17 mission in 1972]
 ]
 
 .pull_right[
 
 &lt;br&gt;
 
-- Taken from the Apollo 17 mission in 1972
+These and other photographs taken by astronauts and early satellites in the late 1960s and early 1970s were among the first _earth observations_ from space.
 
-- Highlights Earth as a single global system 
+They highlight Earth as a single vulnerable, interconnected system in the darkness of space with limited resources (and space) and no escape options...
 
+They sparked a new era both in environmental consciousness and in the tools available to better understand and protect our environment.
+
+]
+
+---
+
+## Learning goals for this lecture:
+
+- To provide an introduction to this module
+- To highlight that much of biodiversity conservation is a _spatial_ problem
+- To give you some idea how Geographic Information Systems (GIS) and remote sensing are used in conservation
+- To ground the above with local examples
+
+---
+class: center
+
+## Habitat loss and degradation have been the greatest threats to biodiversity
+
+&lt;img src="images/redlistSA_threats.png" width="80%" /&gt;
+
+.footnote[from the [Red List of South African Plants](http://redlist.sanbi.org/stats.php)]
+
+---
+class: center
+
+### Expanding protected areas has been the primary approach to stemming biodiversity loss
+
+&lt;img src="images/bendingthecurve.jpg" width="65%" /&gt;
+
+.footnote[from [IIASA via Phys.org](https://phys.org/news/2020-09-biodiversity-loss.html)]
+
+---
+class: center
+
+## Global protected areas
+
+&lt;img src="images/protected_areas_map.png" width="80%" /&gt;
+
+.footnote[from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
+
+---
+class: center
+
+## Change in protected area and OECM coverage
+
+&lt;img src="images/protected_areas.png" width="85%" /&gt;
+
+.footnote[from [Protected Planet](https://livereport.protectedplanet.net/chapter-3). Data in million km&lt;sup&gt;2&lt;sup&gt;.]
+
+---
+## But there are many tough questions...
+
+- Where should we put (or expand) protected areas?
+- How do we ensure the effectiveness of our protected areas?
+- How do we protect biodiversity outside protected areas?
+
+Answering these requires:
+  - Mapping biodiversity
+  - Identifying and assessing threats to biodiversity
+  - Setting (spatial) biodiversity conservation priorities
+  - Protected area design
+  - Tools to inform management
+    - Monitoring change in biodiversity and other key variables (e.g. fire, land cover change, etc)
+
+&lt;br&gt;
+
+&gt; _Most of these are inherently spatial problems, typically requiring use of GIS_
+
+&gt; _Most can benefit from satellite remote sensing_
+
+---
+
+layout: false
+
+### Mapping biodiversity
+
+.pull-left[
+
+The biomes of South Africa...
+
+&lt;img src="images/biomes.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Dayaram et al. 2019](https://doi.org/10.4102/abc.v49i1.2452)]
+]
+
+.pull-right[
+
+Estimated plant species richness across South Africa
+
+&lt;img src="images/cramer_verboom_2017.jpg" width="85%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Cramer and Verboom 2017](http://dx.doi.org/10.1111/jbi.12911)]
+
+]
+
+---
+
+layout: false
+
+### Assessing threats to biodiversity
+
+.pull-left[
+
+The remaining extent of the biomes of South Africa...
+
+&lt;img src="images/biome_remnants.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Skowno et al. 2021](http://dx.doi.org/10.17159/sajs.2021/8182)]
+]
+
+.pull-right[
+
+SA plant taxa of conservation concern
+
+&lt;img src="images/redlist_map.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Red List of South African Plants](http://redlist.sanbi.org/stats.php)]
+]
+
+---
+
+layout: false
+
+### Setting conservation priorities
+
+.pull-left[
+
+Biodiversity priority areas of South Africa...
+
+&lt;img src="images/Biodiversity_priority_areas_SA_2011.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
+]
+
+.pull-right[
+
+South Africa’s Red List of Terrestrial Ecosystems (RLEs)
+
+&lt;img src="images/rle_SA_Skowno2021.webp" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Skowno and Monyeki 2021](http://dx.doi.org/10.3390/land10101048)]
+]
+
+---
+
+layout: false
+
+### Tools to inform management
+
+.pull-left[
+
+Fire history...
+
+&lt;img src="images/Biodiversity_priority_areas_SA_2011.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
+]
+
+.pull-right[
+
+Near-real-time vegetation change
+
+&lt;img src="images/rle_SA_Skowno2021.webp" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Moncrieff 2021]() - _Global Overberg Ruens Renosterveld Watch_]
 ]
 
 ---
@@ -626,7 +632,22 @@ class: middle
 
 ## References
 
+Gotelli, N. J. and R. K. Colwell (2001). "Quantifying biodiversity:
+procedures and pitfalls in the measurement and comparison of species
+richness". In: _Ecology letters_ 4.4, pp. 379-391. ISSN: 1461-023X,
+1461-0248. DOI:
+[10.1046/j.1461-0248.2001.00230.x](https://doi.org/10.1046%2Fj.1461-0248.2001.00230.x).
 
+Slingsby, J. A., C. Merow, M. Aiello-Lammens, et al. (2017).
+"Intensifying postfire weather and biological invasion drive species
+loss in a Mediterranean-type biodiversity hotspot". En. In:
+_Proceedings of the National Academy of Sciences of the United States
+of America_ 114.18, pp. 4697-4702. ISSN: 0027-8424, 1091-6490. DOI:
+[10.1073/pnas.1619014114](https://doi.org/10.1073%2Fpnas.1619014114).
+
+Whittaker, R. H. (1972). "Evolution and measurement of species
+diversity". En. In: _Taxon_ 21.2-3, pp. 213-251. ISSN: 0040-0262,
+1996-8175. DOI: [10.2307/1218190](https://doi.org/10.2307%2F1218190).
 
 ---
 class: center, middle

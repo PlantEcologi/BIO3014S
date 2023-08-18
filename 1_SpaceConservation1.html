@@ -4,7 +4,7 @@
     <title>1. Space and Conservation</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jasper Slingsby, BIO3014S" />
-    <meta name="date" content="2023-08-09" />
+    <meta name="date" content="2023-08-18" />
     <script src="1_SpaceConservation1_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -19,7 +19,7 @@ class: center, middle, inverse, title-slide
 ### Jasper Slingsby, BIO3014S
 ]
 .date[
-### 2023-08-09
+### 2023-08-18
 ]
 
 ---
@@ -110,11 +110,11 @@ class: center
 ---
 class: center
 
-## Change in protected area and OECM coverage
+## Change in protected area and OECM* coverage
 
-&lt;img src="images/protected_areas.png" width="85%" /&gt;
+&lt;img src="images/protected_areas.png" width="80%" /&gt;
 
-.footnote[from [Protected Planet](https://livereport.protectedplanet.net/chapter-3). Data in million km&lt;sup&gt;2&lt;sup&gt;.]
+.footnote[*OECM = Other effective area-based conservation measures. Data sourced from [Protected Planet](https://livereport.protectedplanet.net/chapter-3) - reported in million km&lt;sup&gt;2&lt;sup&gt;]
 
 ---
 ## But there are many tough questions...
@@ -126,12 +126,12 @@ class: center
 Answering these requires:
   - Mapping biodiversity
   - Identifying and assessing threats to biodiversity
-  - Setting (spatial) biodiversity conservation priorities
-  - Protected area design
+  - Deciding on biodiversity conservation priorities
+  - Optimising trade-offs in priorities for protected area design
   - Tools to inform management
+    - Early warning systems
     - Monitoring change in biodiversity and other key variables (e.g. fire, land cover change, etc)
 
-&lt;br&gt;
 
 &gt; _Most of these are inherently spatial problems, typically requiring use of GIS_
 
@@ -210,7 +210,100 @@ South Africa’s Red List of Terrestrial Ecosystems (RLEs)
 .footnote[[Skowno and Monyeki 2021](http://dx.doi.org/10.3390/land10101048)]
 ]
 
+---
 
+layout: false
+
+### Tools to inform management
+
+.pull-left[
+
+Fire history...
+
+&lt;img src="images/firecount_MODIS.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+.footnote[MODIS fire record 2000-2021 - made in [Google Earth Engine](https://earthengine.google.org/)]
+]
+
+.pull-right[
+
+Near-real-time vegetation change
+
+&lt;img src="images/moncrieff2021b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[[Moncrieff 2021]() - _Global Overberg Ruens Renosterveld Watch_]
+]
+
+---
+
+class: center, middle
+
+### Today's practical: Mapping biodiversity
+
+We'll be using [***remap***](https://remap-app.org/) to play with mapping ecosystems using satellite remote sensing.
+
+Remap is an online mapping platform for people with little technical background in remote sensing. It enables you to quickly map and report the status of ecosystems, contributing to the IUCN Red List of Ecosystems.
+
+The exercise is aimed at giving you greater insight into many of the challenges faced and assumptions or pragmatic decisions required when mapping and monitoring ecosystems.
+
+---
+
+class: center, middle
+
+### Land cover classification with [***remap***](https://remap-app.org/)
+
+&lt;img src="images/remap_murray2019.jpg" width="100%" style="display: block; margin: auto;" /&gt;
+
+.center[from [Murray et al. 2019](https://doi.org/10.1111/2041-210X.13043)]
+
+---
+
+class: center, middle
+
+### Land cover classification with [***remap***](https://remap-app.org/)
+
+&lt;img src="images/remap_murray2019b.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+.center[from [Murray et al. 2019](https://doi.org/10.1111/2041-210X.13043)]
+
+
+---
+
+### Steps
+
+1. Open [***remap***](https://remap-app.org/)
+2. Go to "tutorials", open and read through PDF Tutorials 1 and 2
+3. Select an area you know reasonably well (e.g. the Cape Peninsula) about the size of the Cape Peninsula
+4. Follow the instructions from tutorial 1, but for your area and time set to "present"
+  - We will have a discussion around how best to collect your training data
+5. Colour your classes something sensible 
+ - take a screen shot of your classified map (for submission with your prac).
+ - click "Results" and take a screen shot (for submission with your prac)
+ - set your classification to semi-transparent, pan around and see how well your classifier has done
+6. Consider ways to improve your classification and address issues you noticed by 
+  - altering or adding to your training data (e.g. using a species-oriented approach)
+  - adding or dropping predictors
+7. Rerun your classification with your altered training data and repeat the screen shots in step 5 (you can redo this step a few times until you feel you have a reasonable classification)
+8. Now switch the time setting to "past". 
+  - check that your training data points have not changed (e.g. human-altered land cover) 
+  - classify and take screen shots 
+  - compare present and past classifications with slider as per tutorial 2
+9. Export your data as a JSON file labelled with your name
+
+---
+
+### Assignment
+
+Where possible, contextualise your answers by highlighting how they relate to the approach we adopted in this practical and/or illustrate them (i.e. provide figures with captions) with examples from your analyses - e.g. where your classifier did well or badly or changed with different settings or training data. 
+
+1. What assumptions are required when using satellite remote sensing (SRS) to map ecosystems?
+2. What are the potential drivers of uncertainty when using SRS to develop an ecosystem type classification?
+3. What are the pros and cons of selecting your training data based on vegetation physiognomy versus the occurrence of focal species?
+4. What are the implications of the issues raised above for how and what we conserve?
+
+Each question is worth 5 marks and shouldn't be more than half a page. An additional 5 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **25 marks**.
+
+Please provide your write-up as a ***PDF***. Please also submit your JSON file labelled with your name.
 
 ---
 
