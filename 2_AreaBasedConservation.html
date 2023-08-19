@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>2. Area Based Conservation</title>
+    <title>2. Area-Based Conservation</title>
     <meta charset="utf-8" />
     <meta name="author" content="Jasper Slingsby, BIO3014S" />
-    <meta name="date" content="2023-08-18" />
+    <meta name="date" content="2023-08-19" />
     <script src="2_AreaBasedConservation_files/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -13,13 +13,13 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# 2. Area Based Conservation
+# 2. Area-Based Conservation
 ]
 .author[
 ### Jasper Slingsby, BIO3014S
 ]
 .date[
-### 2023-08-18
+### 2023-08-19
 ]
 
 ---
@@ -115,24 +115,40 @@ class: center, middle
 
 We can't protect it all...
 
-Where or how much land do we need to protect? 
+_We have to balance trade-offs with other human needs for (or rights to!) land and resources._
 
-What should we protect?
+&lt;br&gt;
 
-How do we balance trade-offs with other human needs for (or rights to!) land?
+Where or how much do we need to protect? 
 
-What is "protection"? How do we ensure it is effective?
+_What should we protect? How do we decide?_
 
-How do we reduce unecessary loss outside protected areas?
+&lt;br&gt;
+
+What is "protection"? 
+
+_How do we ensure it is effective?_
+
+---
+
+class: center
+
+## We can't protect it all...
+
+&lt;img src="images/landcover_glad.png" width="85%" /&gt;
+
+Habitat loss occurs because we need space to live, grow food, etc....
+
+.footnote[Land Cover from [Hansen et al. 2022](https://doi.org/10.1088/1748-9326/ac46ec). Interactive online [***here.***](https://glad.earthengine.app/view/global-land-cover-land-use-v1)]
 
 ---
 
 layout: false
 
 .pull-left[
-## The number of species increases with area, but...
+## Some areas are more diverse than others...
 
-...the species-area relationship varies depending on the **area** being sampled... 
+The number of species increases with area, but the species-area relationship varies depending on the **area** being sampled... 
 
 &lt;img src="images/fynbos.png" width="70%" style="display: block; margin: auto;" /&gt;
 
@@ -146,6 +162,154 @@ In fact, we often compare the diversity of different regions using species-area 
 
 .footnote[[Cowling et al. 2015](http://dx.doi.org/10.1111/jbi.12429) comparison of Med-Type Ecosystems.]
 ]
+
+---
+
+## Where or how much do we need to protect? 
+
+### Some areas are more diverse than others...
+
+&lt;img src="images/kreft2007_crop.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+.footnote[Estimated global plant species richness - [Kreft &amp; Jetz 2007](http://dx.doi.org/10.1073/pnas.0608361104), _PNAS_]
+
+---
+
+## Where or how much do we need to protect? 
+
+#### There are many ways to set conservation priorities!!!
+
+&lt;img src="images/brooks2006_cons_prior.png" width="70%" style="display: block; margin: auto;" /&gt;
+.footnote[Comparison of 9 approaches for global biodiversity conservation prioritization - [Brooks et al. 2006](http://dx.doi.org/10.1126/science.1127609)]
+
+---
+
+## Where or how much do we need to protect? 
+
+e.g. [**Global Biodiversity Hotspots**](https://www.conservation.org/priorities/biodiversity-hotspots) - areas "that are both biologically ***rich*** and deeply ***threatened***"
+
+&lt;img src="images/hotspots.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+Most schemes prioritise ***irreplaceability*** (e.g. species endemism) and consider ***vulnerability*** either ***reactively*** (prioritising areas under threat) or ***proactively*** (prioritising areas with less threat) - [Brooks et al. 2006](http://dx.doi.org/10.1126/science.1127609).
+
+---
+
+## Where or how much do we need to protect? 
+
+Most ***global*** conservation priorities link to specific NGOs or funders to guide where to invest their effort.
+
+&lt;img src="images/brooks2006_cons_prior.png" width="70%" style="display: block; margin: auto;" /&gt;
+.footnote[Comparison of 9 approaches for global biodiversity conservation prioritization - [Brooks et al. 2006](http://dx.doi.org/10.1126/science.1127609)]
+
+---
+
+## Where or how much do we need to protect? 
+
+International treaties like the GBF are concerned with conserving biodiversity globally, and have global targets, but also track progress towards targets and commitments at the national scale.
+
+&lt;img src="images/cbd_south_africa.png" width="70%" style="display: block; margin: auto;" /&gt;
+.footnote[https://www.cbd.int/countries/targets/?country=za - Also see [country report on Aichi target 11](https://www.cbd.int/pa/doc/dossiers/south-africa-abt11-country-dossier2021.pdf) as an example.]
+
+---
+
+## Where or how much do we need to protect? 
+
+While ***global*** conservation priorities guide investment, ***local*** scale planning is necessary to for actual implementation.
+
+
+---
+
+## Global vs Local conservation priorities?
+
+.pull-left[
+### Global
+
+- Require datasets with global coverage
+  - Often trades off with data quality/resolution and/or taxonomic groups included
+  - Typically based on bioregional classification and specialist opinion
+- Analyst lacks local knowledge of all areas and/or access to experts for input
+- Data, computation power and other constraints typically limit analyses to course spatial grain (countries, degree grid squares, etc)
+- Cannot consider local nuance
+]
+
+.pull-right[
+### Local
+
+- Can include patchy local data
+  - Allows including higher quality data and usually more taxonomic groups
+  - Usually based on primary biodiversity data and aware of their flaws/assumptions
+- Analyst typically has good local knowledge and/or access to experts for input
+- Analyses can be done at very fine spatial grains if the data and computation allow (10s to 100s of metres)
+- Can account for local nuance
+  - biodiversity, resources, institutions, policy, trade-offs
+]
+
+---
+
+## Local conservation priorities and planning
+
+.left-column[
+Historically, many conservation areas are focused on either a target **species** or a broader **ecosystem** - e.g. Bontebok National Park vs the [Cape Floral Region Protected Areas UNESCO World Heritage Site](https://whc.unesco.org/en/list/1007/)
+
+I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas.
+
+]
+
+.right-column[
+&lt;img src="images/species-and-ecosystem.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+.footnote[Image from the [Wildlife Conservation Society](https://blog.wcs.org/photo/2022/10/31/understanding-species-roles-in-ecosystem-survival-tanzania/)]
+]
+
+
+---
+
+## Local conservation priorities and planning
+
+.pull-left[
+
+In modern conservation planning, we typically already have some **historical protected area network** or similar and the goals are to improve on existing conservation efforts.
+
+Unfortunately, the existing networks usually contain a **biased sample** of biodiversity, usually focused on charismatic species or remote places and other areas that are unsuitable for commercial activities.
+
+&gt; _"A more systematic approach to locating and designing reserves [...] will need to be implemented if a large proportion of today’s biodiversity is to exist in [...] future..."_ - [Margules and Pressey 2000](http://dx.doi.org/10.1038/35012251)
+
+This is called ***Systematic Conservation Planning***.
+
+]
+
+---
+
+## Systematic Conservation Planning
+
+1. Compile data on the biodiversity of the planning region
+2. Identify conservation goals for the planning region
+3. Review existing conservation areas
+4. Select additional conservation areas
+5. Implement conservation actions
+6. Maintain the required values of conservation areas
+
+.footnote[[Margules and Pressey 2000](http://dx.doi.org/10.1038/35012251)]
+
+---
+
+## Maintain the required value... 
+### Protected area effectiveness - LULC
+
+.pull-left[ 
+There has been drastic cropland expansion over the past 2 decades in many protected areas of the world ([Meng et al. 2023](http://dx.doi.org/10.1038/s41893-023-01093-w)).
+
+The term "paper parks" ...
+
+.footnote[LULC = Land use and land cover change]
+]
+
+.pull-right[
+&lt;img src="images/meng_2023_cropland.webp" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+]
+
+---
+
+## End
 
 ---
 
