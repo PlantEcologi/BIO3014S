@@ -100,7 +100,7 @@ knitr::include_graphics("images/blue_marble.jpg")
 
 These and other photographs taken by astronauts and early satellites in the late 1960s and early 1970s were among the first _earth observations_ from space.
 
-They highlight Earth as a single vulnerable, interconnected system in the darkness of space with limited resources (and space) and no escape options...
+They highlight Earth as a single vulnerable, interconnected system in the darkness of space with limited resources and no escape options...
 
 They sparked a new era both in environmental consciousness and in the tools available to better understand and protect our environment.
 
@@ -112,7 +112,7 @@ They sparked a new era both in environmental consciousness and in the tools avai
 
 - To provide an introduction to this module
 - To highlight that much of biodiversity conservation is a _spatial_ problem
-- To give you some idea how Geographic Information Systems (GIS) and remote sensing are used in conservation
+- To give you some idea how Geographic Information Systems (GIS) and satellite remote sensing are used in conservation
 - To ground the above with local examples
 
 ---
@@ -158,6 +158,18 @@ knitr::include_graphics("images/protected_areas.png")
 ```
 
 .footnote[*OECM = Other effective area-based conservation measures. Data sourced from [Protected Planet](https://livereport.protectedplanet.net/chapter-3) - reported in million km<sup>2<sup>]
+
+---
+
+class: center
+
+## We have a new target of 30% protected by 2030...
+
+```{r echo = F, fig.align = 'centre', out.width = '70%'}
+knitr::include_graphics("images/kunming.png")
+```
+
+.footnote[The signing of the [**Global Biodiversity Framework**, Dec 2022](https://www.cbd.int/gbf/)]
 
 ---
 ## But there are many tough questions...
@@ -292,6 +304,15 @@ knitr::include_graphics("images/moncrieff2021b.png")
 
 .footnote[[Moncrieff 2021]() - _Global Overberg Ruens Renosterveld Watch_]
 ]
+
+---
+
+## The rest of this module:
+
+### Practical this afternoon
+### Tuesday: Area-Based Conservation
+### Wednesday: 
+
 
 ---
 
