@@ -2,10 +2,15 @@
 
 This is a week long module on "Space and Conservation" for the third year course _Conservation: Genes, Population & Biodiversity_ (BIO3014S).
 
+### Module Outline:
+The conservation of biodiversity is a wicked problem, but in the absence of perfect knowledge, we need pragmatic solutions. This largely boils down to the use of space. The prioritisation, allocation and management of geographic space, but also the use of tools that allow broad-scale mapping and monitoring of biodiversity and conservation actions, such as space-borne remote sensing platforms. This module of the course will explore how both meanings of space are used in global and local biodiversity conservation, including some advantages and limitations of these approaches.
+
+### Learning outcomes:
+Students will have some insight into the field of spatial conservation planning, approaches for remote sensing of biodiversity, conservation prioritisation tools and informants like the IUCN Red List of Threatened Species and Ecosystems, and how these are applied in South Africa.
+
 The module includes 4 lectures, a practical and a discussion of a journal article.
 
-The lectures:
-
+### Lectures (21-25 August 2023):
 1. [Space and Conservation](1_SpaceConservation1)
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. Threat Assessment
@@ -53,6 +58,6 @@ Please answer the questions below. Where possible, contextualise your answers by
 3. What are the pros and cons of selecting your training data based on vegetation physiognomy versus the occurrence of focal species?
 4. What are the implications of the issues raised above for how and what we conserve?
 
-Each question is worth 5 marks and shouldn't be more than half a page. An additional 5 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **25 marks**.
+Each question is worth 5 marks and shouldn't be more than half a page. An additional 4 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **24 marks**.
 
 Please provide your write-up as a ***PDF***. Please also submit your JSON file labelled with your name.

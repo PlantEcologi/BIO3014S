@@ -268,7 +268,7 @@ knitr::include_graphics("images/cbd_south_africa.png")
 
 ## Where or how much do we need to protect? 
 
-While ***global*** conservation priorities guide investment, ***local*** scale planning is necessary to for actual implementation.
+While ***global*** conservation priorities guide investment, ***local*** scale planning is necessary to for implementation.
 
 
 ---
@@ -282,7 +282,7 @@ While ***global*** conservation priorities guide investment, ***local*** scale p
   - Often trades off with data quality/resolution and/or taxonomic groups included
   - Typically based on bioregional classification and specialist opinion
 - Analyst lacks local knowledge of all areas and/or access to experts for input
-- Data, computation power and other constraints typically limit analyses to course spatial grain (countries, degree grid squares, etc)
+- Data, computation power and other constraints typically limit analyses to coarse spatial grain (countries, degree grid squares, etc)
 - Cannot consider local nuance
 ]
 
@@ -302,15 +302,19 @@ While ***global*** conservation priorities guide investment, ***local*** scale p
 
 ## Local conservation priorities and planning
 
-.left-column[
-Historically, many conservation areas are focused on either a target **species** or a broader **ecosystem** - e.g. Bontebok National Park vs the [Cape Floral Region Protected Areas UNESCO World Heritage Site](https://whc.unesco.org/en/list/1007/)
+.pull-left[
+Historically, many conservation areas are focused on either a target **species** or a broader community or **ecosystem** 
 
-I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas.
+  - e.g. Bontebok National Park vs [Nieuwoudtville Wild Flower Reserve](https://www.nieuwoudtville.com/flower-routes/) vs the [Cape Floral Region Protected Areas UNESCO World Heritage Site](https://whc.unesco.org/en/list/1007/)
+
+I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas. It's usually more about how they are managed.
+
+  - e.g. Bontebok National Park used to be burnt very frequently and areas were even fertilized to encourage forage for the Bontebok, often to the detriment of the flora in the Park
 
 ]
 
-.right-column[
-```{r echo = F, fig.align = 'center', out.width = '70%'}
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/species-and-ecosystem.jpg")
 ```
 
@@ -356,11 +360,11 @@ This is called ***Systematic Conservation Planning***.
 3. Review existing conservation areas
   - Assess extent to which they address the goals and targets
 4. Select additional conservation areas
-  - to achieve goals and targets, but subject to constraints on budgets etc
+  - to achieve goals and targets, but subject to constraints on budgets, social impacts etc
 5. Implement conservation actions
   - prioritise actions, acquire properties, develop management plans, etc
 6. Maintain the required values of conservation areas
-  - Set conservation goals for each area, implement actions, monitor and modify as needed
+  - Set conservation goals for each area/reserve, implement actions, monitor and modify as needed
 
 *There have been many elaborations since this paper - especially to do with stakeholder engagement etc.
 
@@ -374,9 +378,9 @@ This is called ***Systematic Conservation Planning***.
 
 Just because it's in a "protected area" does not necessarily mean it is no longer under threat!
 
-The definition of protected areas (and "conservation"!) differs between regions, as do resources and willingness to implement conservation actions.
+There are different kinds (or levels) and the definition of protected areas (and "conservation"!) differs between regions, as do resources and willingness to implement conservation actions, etc.
 
-"Paper parks" - protected areas on paper, but not in practice...
+"Paper parks" are a common phenomenon - protected areas on paper, but not in practice...
 
 Putting an area aside for biodiversity is not a silver bullet! The effectiveness of the protected area is key - requiring appropriate management, financing, public support, etc
 
@@ -389,574 +393,29 @@ This is often more than half the battle in conservation!
 knitr::include_graphics("images/meng_2023_cropland.webp")
 ```
 
-There has been drastic cropland expansion over the past 2 decades in many protected areas of the world ([Meng et al. 2023](http://dx.doi.org/10.1038/s41893-023-01093-w)).
+There has been drastic cropland expansion over the past 2 decades in many protected areas of the world - [Meng et al. 2023](http://dx.doi.org/10.1038/s41893-023-01093-w).
 
 ]
 
 ---
 
-## End
-
----
-
-Learning outcomes
-
-- Big frameworks
-    - 30 by 30, Nature needs half, etc
-- The logic (species-area curves etc)
-- Protected areas and 'Other effective area-based conservation measures' (OECMs)
-- Difficulties, risks and trade-offs
-    - How to prioritise?
-    - Alternative land uses
-    - Social equity
-    - Protected area effectiveness 
-        - Varied interpretations of protected areas and LULC within PAs
-        - Management effectiveness and degradation
-        - IAPs
-        - Tourist impacts
-        - Lack of income
-
-
----
-
-layout: false
-
-.pull-left[
-## The number of species increases with area...
-
-But, the species-area relationship varies depending on the **area** being sampled...
-
-We often compare the diversity of different regions using species-area curves (usually on log-log axes so the curves are linear) - e.g. Cowling et al. 2015
-
-```{r echo = F, fig.align = 'left', out.width = '98%'}
-knitr::include_graphics("images/fynbos.png")
-```
-
-]
-
-.pull-right[
-
-```{r echo = F, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("images/cowling2015.png")
-```
-
-]
-
----
-
-## "Protecting area"
-
-.pull-left[
-
-### Global Land Cover
-
-```{r echo = F, fig.align = 'centre', out.width = '100%'}
-knitr::include_graphics("images/landcover_glad.png")
-```
-
-Habitat loss is the biggest driver of biodiversity loss.
-
-.footnote[Global Land Cover from [Hansen et al. 2022](https://doi.org/10.1088/1748-9326/ac46ec). Interactive online [***here.***](https://glad.earthengine.app/view/global-land-cover-land-use-v1)]
-
-]
-
-.pull-right[
-
-### Global Protected Areas
-
-```{r echo = F, fig.align = 'centre', out.width = '80%'}
-knitr::include_graphics("images/protected_areas_map.png")
-```
-
-Habitat protection should be the most effective means to stem this loss.
-
-.footnote[from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
-]
----
-
-## Protected area effectiveness - LULC
-
-.pull-left[ 
-There has been drastic cropland expansion over the past 2 decades in many protected areas of the world ([Meng et al. 2023](http://dx.doi.org/10.1038/s41893-023-01093-w)).
-
-The term "paper parks" ...
-
-.footnote[LULC = Land use and land cover change]
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'left', out.width = '100%'}
-knitr::include_graphics("images/meng_2023_cropland.webp")
-```
-]
-
----
-
-## Protected area effectiveness - LULC
-
-.left-column[ 
-.footnote[LULC = Land use and land cover change]
-]
-.right-column[
-```{r echo = F, fig.align = 'left', out.width = '70%'}
-knitr::include_graphics("images/meng_2023_cropland.webp")
-```
-]
----
-
-class: center, middle
-
-background-color: black
-
-text-color: white
-
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/blue_marble.jpg")
-```
-
----
-
-.pull-left[
-## "The Blue Marble"
-
-```{r echo = F, fig.align = 'left', out.width = '90%'}
-knitr::include_graphics("images/blue_marble.jpg")
-```
-]
-
-.pull_right[
-
-<br>
-
-- Taken from the Apollo 17 mission in 1972
-
-- Highlights Earth as a single global system 
-
-]
-
----
-
-class: center, middle
-
-### We want to measure biodiversity everywhere, all the time...
-
-```{r echo = F, fig.align = 'center', out.width = '80%'}
-knitr::include_graphics("images/world_seasonality.gif")
-```
-
-.center[Remote sensing is pretty much the only way this can be achieved...]
-
----
-
-layout: false
-
-.pull-left[
-
-## It's a rapidly growing field
-
-```{r echo = F, fig.align = 'left', out.width = '90%'}
-knitr::include_graphics("images/turner2003.png")
-```
-
-```{r echo = F, fig.align = 'left', out.width = '90%'}
-knitr::include_graphics("images/satellitelaunches.jpg")
-```
-
-.footnote[Turner et al. 2003]
-]
-
-.pull-right[
-
-```{r echo = F, fig.align = 'left', out.width = '75%'}
-knitr::include_graphics("images/cavenderbares2020.png")
-```
-.footnote[Cavender-Bares et al. 2020]
-
-]
-
----
-
-class: center
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape.png")
-```
-.left[.footnote[...and the Cape is about to be the epicentre of this endeavour - https://www.bioscape.io/]]
-
----
-
-layout: false
-
-## BioSCape: Biodiversity Survey of the Cape
-
-.pull-left[
-
-- $>$ 100 scientists and conservation practitioners
-- 16 teams (mixed US, RSA, other)
-- terrestrial and aquatic
-- 2 planes
-- 4 instruments (hyperspectral and LiDAR)
-- fundamental and applied science
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_planes.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_kumu.png")
-```
-.footnote[www.bioscape.io]
-]
-
----
-
-class: center, middle
-
-## But how do we actually measure biodiversity with remote sensing?
-
----
-
-layout: false
-
-.pull-left[
-## There are many facets of biodiversity to measure!
-
-<br>
-
-An advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity... 
-
-...at least from the scale of individuals up...
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/Noss_Biodiversity.png")
-```
-.footnote[Noss 1990, _Conservation Biology_]
-]
-
----
-
-layout: false
-
-.pull-left[
-## There are many facets of biodiversity to measure!
-
-An advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity... 
-
-
-```{r echo = F, fig.align = 'center', out.width = '120%'}
-knitr::include_graphics("images/skidmore2021_fig1.png")
-```
-.footnote[Skidmore et al. 2021]
-
-]
-
-.pull-right[
-
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/ebv_circle.png")
-```
-
-
-...at least from the scale of individuals up...
-
-.footnote[https://geobon.org/]
-
-]
-
----
-
-class: center
-
-##Productivity and Seasonality
-
-```{r echo = F, fig.align = 'center', out.width = '80%'}
-knitr::include_graphics("images/world_seasonality.gif")
-```
-
----
-
-class: center
-
-##Land cover (and change)
-
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/skowno2021.jpg")
-```
-
-.left[.footnote[Skowno et al. 2021]]
-
----
-
-class: center
-
-##Land cover change detection
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/renosterveld_planet.gif")
-```
-
-.left[.footnote[Moncrieff 2022]]
-
----
-
-class: center
-
-##Land cover change time series
-
-```{r echo = F, fig.align = 'center', out.width = '60%'}
-knitr::include_graphics("images/moilwe.png")
-```
-
-.left[.footnote[Moilwe et al. in prep]]
-
----
-
-class: center, middle
-
-## But what about metrics like species, functional and phylogenetic diversity?
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/peninsula_lidar.png")
-```
-
-Proteaceae shrubs (dark green) surrounded by low shrubs, forbs and graminoids at Silvermine, TMNP. 
-
-.footnote[Data from City of Cape Town]
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/purkis_klemas2011_lidar.png")
-```
-
-Light detection and ranging (LiDAR) allows you to measure topography and the vertical structure of vegetation.
-
-.footnote[Purkis and Klemas 2011]
-]
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-Imaging spectroscopy ("hyperspectral" remote sensing) allows direct measurement of leaf traits.
-
-```{r echo = F, fig.align = 'left', out.width = '92%'}
-knitr::include_graphics("images/cawse2021_spectra.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/peninsula_hyperspec.png")
-```
-]
-
----
-
-layout: false
-
-## Phylogenetic diversity?
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/meireles2020.jpg")
-```
-
-.left[.footnote[Meireles et al. 2020]]
-
-Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
-
----
-
-layout: false
-
-.pull-left[
-## Identifying species?
-
-We can monitor populations of large species..., but identifying all species present...?
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/machine_learning.png")
-```
-
-.footnote[https://xkcd.com/1838/]
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("images/cedars_pic.png")
-knitr::include_graphics("images/cedars_mapped.png")
-```
-
-.footnote[Hadebe 2021 MSc thesis]
-]
-
----
-
-class: center
-
-##There are challenges and limitations...
-
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/schimel2020_scale.png")
-```
-
-.left[.footnote[Schimel et al. 2020]]
-
----
-
-class: center
-
-##But this is what fancy modelling and proxies are for...
-
-```{r echo = F, fig.align = 'center', out.width = '43%'}
-knitr::include_graphics("images/jetz2016.png")
-```
-
-.left[.footnote[Jetz et al. 2016]]
-
----
-
-layout: false
-
-.pull-left[
-## Combining remote sensing and in situ data
-
-Using remotely sensed environmental data to inform species distribution models
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/wilson2016.png")
-```
-
-E.g. Observed cloud frequency from the MODIS satellite is a better predictor of the distribution of _Protea cynaroides_ than interpolated precipitation.
-
-.footnote[Wilson and Jetz 2016]
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/randin2020.jpg")
-```
-.footnote[Randin et al. 2020]
-]
-
----
-
-layout: false
-
-.pull-left[
-## The Spectral Diversity Hypothesis
-
-Is spectral diversity a good proxy for biotic diversity?
-
-```{r echo = F, fig.align = 'left', out.width = '100%'}
-knitr::include_graphics("images/frye2021map.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/frye2021fig.png")
-```
-
-A test looking at spectral diversity from leaf spectra for 1210 species across 1267 plots supports the hypothesis **at the leaf level...**
-
-.footnote[Frye et al. 2021]
-]
-
----
-
-layout: false
-
-.pull-left[
-## The Spectral Diversity Hypothesis
-
-
-```{r echo = F, fig.align = 'left', out.width = '85%'}
-knitr::include_graphics("images/vanleeuwen2020_scale.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/vanleeuwen2020b.png")
-```
-
-But canopy reflectance is more complex...
-
-Leaf angle, shadow, density, etc affect the spectral reflectance of vegetation, reducing our ability to identify and map species - especially as the resolution of the imagery coarsens.
-
-.footnote[van Leeuwen et al. 2021]
-]
-
----
-
-layout: false
-
-.pull-left[
-### Environmental heterogeneity
-
-Another approach is just to map and monitor environmental heterogeneity
-
-####_"Conserving nature's stage"_
-
-The Nature Conservancy and others using this approach to identify parcels of Earth that are valuable for their capacity to support diverse life forms today and into the future
-
-Typically identified based on their abiotic heterogeneity or geodiversity, much of which can be mapped and/or monitored with remote sensing - topography, climate, soils, etc
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/humboldt.jpg")
-```
-.footnote[Alexander von Humboldt]
-]
-
----
 class: middle
 
 ## Take-home
 
->*There are many ways to measure biodiversity. None are perfect. You should treat them as hypotheses.*
+>*Area-based conservation is the primary means of reducing habitat loss and degradation*
+>   - *The underlying premise being that more area will protect more species*
+>   - *The core of global agreements under the UN Convention on Biological Diversity (_The 2010 Biodiversity Target, The Aichi Targets, The Global Biodiversity Framework_) is expansion of areas under protection*
 
->*How you measure biodiversity can affect the outcome of your study. There are many ways to measure biodiversity incorrectly for the application at hand!*
+>*Unfortunately, we can't put all areas (and thus all biodiversity) under area-based conservation, so...* 
 
->*Measures of biodiversity allow us to explore:*
-> - *How biodiversity is generated and communities are assembled*
-> - *How biodiversity affects ecosystem functions, including benefits to society*
-> - *How the environment is changing with time and human impacts*
+>   - *We have to balance trade-offs with other human needs and rights*
+>   - *We have to have transparent and defensible ways of deciding what to protect, where to protect it and how much*
+>   - *We need to ensure that the protection we do implement is effective and sustainable*
 
->*Community assembly, biotic effects on ecosystem function, and responses to global change are tightly intertwined*
+>*How we address the issues above often differs depending on whether we are looking to do "top-down" prioritisation of conservation actions at the Global scale versus "bottom-up" conservation planning at Local scales (and everything in between)*
 
----
-
-## References
-
-```{r refs, echo=FALSE, results="asis"}
-#NoCite(myBib)
-#PrintBibliography(myBib)
-```
+>   - *Systematic Conservation Planning aims to address these issues in a transparent framework, and is usually applied at country down to landscape scales.*
 
 ---
 class: center, middle
