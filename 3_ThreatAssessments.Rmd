@@ -1,5 +1,5 @@
 ---
-title: "3. Setting Priorities for Conservation"
+title: "3. Threat Assessments and Conservation Planning in South Africa"
 subtitle: ""  
 author: 
   - "Jasper Slingsby, BIO3014S"
@@ -63,12 +63,87 @@ library(kableExtra)
 # xaringanExtra::use_tile_view()
 ```
 
+class: center, middle
+
+## WARNING!!!
+
+This lecture is a bit of a mash-up of different topics. My aim is to give you some idea of systematic conservation planning, species and ecosystem threat assessments and some idea of how they are applied in South Africa to give you local context. Be aware that I am glossing over a lot of important detail to squeeze it into one lecture. Note that it is also a crude (and partial!) summary by someone who has not been central to this endeavor, so there are things I have missed and potentially even misrepresented...
+
+---
+
+class: center, middle
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/conservation_history_dffe.png")
+```
+
+.footnote[[from DFFE website "South African History of conservation"](https://www.dffe.gov.za/projectsprogrammes/peopleparks/southafrican_conservationhistory)]
+
+---
+
+.pull-left[
+
+## History of Conservation
+
+We don't have a good record to be honest...
+
+In reality, we know many civilizations controlled access to resources like hunting, timber and the like. 
+
+  - There is good record from pre-colonial South Africa, but it more than likely extends back thousands of years in many parts of the world.
+
+The common denominator is sparing a resource. All that has really changed (or is changing) is how we view and quantify that resource, and who and what we are sparing it for (i.e. the _priorities_).
+
+  - Note that these "priorities" are constantly in flux and vary between cultures, countries, reserves, etc. This can cause conflict, but global treaties aim at coming to some degree of agreement.
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '60%'}
+knitr::include_graphics("images/Sylva_paper_1662.jpg")
+```
+
+Wikipedia will point you to John Evelyn's work (1662, 1664) on forests and timber production, but that's just the written record (in English at least...).
+
+]
+
+---
+
+class: center, middle
+
+## What should we be prioritising?
+
+---
+
+
+.center[**Trees/forests for carbon? But at what cost?**]
+
+<iframe src="https://crowtherlab.com/maps/#/" height="90%" width="90%" frameborder="0"></iframe>
+
+---
+
+class: center, middle
+
+## What should we be prioritising?
+
+_"To keep every cog and wheel is the first precaution of intelligent tinkering."_ - Aldo Leopold
+
+---
+
+#### A selected history of the International Union for Conservation of Nature (IUCN) - see [online](https://www.iucn.org/about-iucn/history)
+
+<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1IRSKOBSbdtWr8Gq88VO9YDj73-M9rucPIVf7vrFis7s&font=Default&lang=en&initial_zoom=2" height="85%" width="100%" frameborder="0"></iframe>
+
+---
+
 History...
 - Species Threat Assessments
 - IUCN
 - Ecosystem Threat Assessments
   - SA vs IUCN RLE
   
+  
+- Finish with near-real time data and modelling needs...
+  - See end of Brooks 2011 chapter, Hoffmann 2021, etc
+
 ---
 
 Prioritizing conservation
