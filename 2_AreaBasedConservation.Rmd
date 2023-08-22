@@ -132,7 +132,7 @@ knitr::include_graphics("images/kunming.png")
 
 ## The [Global Biodiversity Framework](https://www.cbd.int/gbf/)
 
-#### 4 goals for 2050 and 23 targets for 2030
+#### 4 goals for 2050 and 23 targets for 2030 - and many focus on _area_
 
 The first part of Goal A:
 > _"The integrity, connectivity and resilience of all ecosystems are maintained, enhanced, or restored, substantially **increasing the area** of natural ecosystems by 2050"_
@@ -217,7 +217,7 @@ knitr::include_graphics("images/cowling2015.png")
 ```{r echo = F, fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("images/kreft2007_crop.jpg")
 ```
-.footnote[Estimated global plant species richness - [Kreft & Jetz 2007](http://dx.doi.org/10.1073/pnas.0608361104), _PNAS_]
+.footnote[Interpolated ("spatially estimated") global plant species richness - [Kreft & Jetz 2007](http://dx.doi.org/10.1073/pnas.0608361104), _PNAS_]
 
 ---
 
@@ -266,9 +266,11 @@ knitr::include_graphics("images/cbd_south_africa.png")
 
 ---
 
+class: center, middle
+
 ## Where or how much do we need to protect? 
 
-While ***global*** conservation priorities guide investment, ***local*** scale planning is necessary to for implementation.
+> While ***global*** conservation priorities guide investment, ***local*** scale planning is necessary for implementation.
 
 
 ---
@@ -351,24 +353,23 @@ This is called ***Systematic Conservation Planning***.
 
 ## Systematic Conservation Planning
 
-#### Steps*:
+#### Steps* according to [Margules and Pressey 2000](http://dx.doi.org/10.1038/35012251):
 
 1. Compile data on the biodiversity of the planning region
-  - Map biodiversity
+  - map biodiversity
 2. Identify conservation goals for the planning region
-  - Set quantitative and qualitative targets (# of species, % area, "mostly natural", etc)
+  - set quantitative and qualitative targets (# of species, % area, "mostly natural", etc)
 3. Review existing conservation areas
-  - Assess extent to which they address the goals and targets
+  - assess extent to which they address the goals and targets
 4. Select additional conservation areas
   - to achieve goals and targets, but subject to constraints on budgets, social impacts etc
 5. Implement conservation actions
   - prioritise actions, acquire properties, develop management plans, etc
+  - _revise plan as new issues and constraints come to light!_
 6. Maintain the required values of conservation areas
-  - Set conservation goals for each area/reserve, implement actions, monitor and modify as needed
+  - set conservation goals for each area/reserve, implement actions, monitor and modify as needed
 
 *There have been many elaborations since this paper - especially to do with stakeholder engagement etc.
-
-.footnote[[Margules and Pressey 2000](http://dx.doi.org/10.1038/35012251)]
 
 ---
 
@@ -384,7 +385,7 @@ There are different kinds (or levels) and the definition of protected areas (and
 
 Putting an area aside for biodiversity is not a silver bullet! The effectiveness of the protected area is key - requiring appropriate management, financing, public support, etc
 
-This is often more than half the battle in conservation!
+This is usually more than half the battle!
 
 ]
 
@@ -410,7 +411,7 @@ class: middle
 >*Unfortunately, we can't put all areas (and thus all biodiversity) under area-based conservation, so...* 
 
 >   - *We have to balance trade-offs with other human needs and rights*
->   - *We have to have transparent and defensible ways of deciding what to protect, where to protect it and how much*
+>   - *We have to have transparent and defensible ways of deciding what to protect, where, and how much*
 >   - *We need to ensure that the protection we do implement is effective and sustainable*
 
 >*How we address the issues above often differs depending on whether we are looking to do "top-down" prioritisation of conservation actions at the Global scale versus "bottom-up" conservation planning at Local scales (and everything in between)*
