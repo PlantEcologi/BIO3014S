@@ -63,6 +63,58 @@ library(kableExtra)
 # xaringanExtra::use_tile_view()
 ```
 
+---
+
+History...
+- Species Threat Assessments
+- IUCN
+- Ecosystem Threat Assessments
+  - SA vs IUCN RLE
+  
+  
+- Finish with near-real time data and modelling needs...
+  - See end of Brooks 2011 chapter, Hoffmann 2021, etc
+
+---
+
+Prioritizing conservation
+
+- Mapping biodiversity…
+- Local vs Global priorities
+
+- Species
+    - Mapping
+    - Threat assessments (and protection levels)
+          - Spatial traits
+          - Non-spatial traits? E.g. Do mutualisms matter?
+                - Need to consider the type of threat (Murray et al. 2014)
+          - Problems with basing conservation priority on (threatened) species?
+              - Not all species have been assessed
+              - Not all species have been identified and named!
+              - Species locality data are imperfect
+              - We are bias in our selection of species (“charismatic” megafauna vs nondescript etc species like sedges)
+
+--- 
+
+    - Ecosystems
+          - Mapping 
+          - Threats
+
+
+Conservation planning
+  - Targets
+  - Spatial products
+  - Optimization algorithms
+  - GIS vs ecology?
+
+“It is a hard reality that virtually all countries, no matter how well resourced, take conservation and land use decisions based on highly patchy and imperfect data - if indeed any data at all.” - Barnard et al. 2017
+
+---
+
+End of notes
+
+---
+
 class: center, middle
 
 ### We want to measure biodiversity everywhere, all the time...

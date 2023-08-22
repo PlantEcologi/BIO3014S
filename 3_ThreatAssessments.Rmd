@@ -1,5 +1,5 @@
 ---
-title: "3. Threat Assessments and Conservation Planning in South Africa"
+title: "3. Threat Assessments and Conservation in South Africa"
 subtitle: ""  
 author: 
   - "Jasper Slingsby, BIO3014S"
@@ -67,7 +67,7 @@ class: center, middle
 
 ## WARNING!!!
 
-This lecture is a bit of a mash-up of different topics. My aim is to give you some idea of systematic conservation planning, species and ecosystem threat assessments and some idea of how they are applied in South Africa to give you local context. Be aware that I am glossing over a lot of important detail to squeeze it into one lecture. Note that it is also a crude (and partial!) summary by someone who has not been central to this endeavor, so there are things I have missed and potentially even misrepresented...
+This lecture is a bit of a mash-up of different topics. My aim is to give you some idea of species and ecosystem threat assessments and some idea of how they are applied in South Africa to give you local context. Be aware that I am glossing over a lot of important detail to squeeze it into one lecture. Note that it is also a crude (and partial!) summary by someone who has not been central to this endeavor, so there are things I have missed and potentially even misrepresented...
 
 ---
 
@@ -91,7 +91,7 @@ In reality, we know many civilizations controlled access to resources like hunti
 
   - There is good record from pre-colonial South Africa, but it more than likely extends back thousands of years in many parts of the world.
 
-The common denominator is sparing a resource. All that has really changed (or is changing) is how we view and quantify that resource, and who and what we are sparing it for (i.e. the _priorities_).
+The common denominator is sparing a resource. All that has really changed (or is changing) is the focal resource, how we view and quantify it, and who and what we are sparing it for (i.e. the _priorities_).
 
   - Note that these "priorities" are constantly in flux and vary between cultures, countries, reserves, etc. This can cause conflict, but global treaties aim at coming to some degree of agreement.
 ]
@@ -113,8 +113,33 @@ class: center, middle
 
 ---
 
+layout: false
 
-.center[**Trees/forests for carbon? But at what cost?**]
+.pull-left[
+## What should we be prioritising?
+
+<br>
+
+### There are many facets of biodiversity we could measure!
+
+<br>
+
+### Where to start?
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/Noss_Biodiversity.png")
+```
+.footnote[Noss 1990, _Conservation Biology_]
+]
+
+---
+
+class: center
+
+.center[**Trees/forests for carbon and "climate restoration"? But at what cost for biodiversity and other resources?**]
 
 <iframe src="https://crowtherlab.com/maps/#/" height="90%" width="90%" frameborder="0"></iframe>
 
@@ -128,245 +153,317 @@ _"To keep every cog and wheel is the first precaution of intelligent tinkering."
 
 ---
 
+class: center
+
 #### A selected history of the International Union for Conservation of Nature (IUCN) - see [online](https://www.iucn.org/about-iucn/history)
 
 <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1IRSKOBSbdtWr8Gq88VO9YDj73-M9rucPIVf7vrFis7s&font=Default&lang=en&initial_zoom=2" height="85%" width="100%" frameborder="0"></iframe>
 
 ---
 
-History...
-- Species Threat Assessments
-- IUCN
-- Ecosystem Threat Assessments
-  - SA vs IUCN RLE
-  
-  
-- Finish with near-real time data and modelling needs...
-  - See end of Brooks 2011 chapter, Hoffmann 2021, etc
+## A couple of key IUCN contributions (among many)
+
+.pull-left[
+- 1956 Species Survival Commission
+    - 1964 The IUCN Red List of Threatened Species
+
+- 1996 Commission on Ecosystem Management
+    - 2014 IUCN Red List of Ecosystems
+    
+    
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/iucn_redlist.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '93%'}
+knitr::include_graphics("images/rle.svg")
+```
+
+]
 
 ---
 
-Prioritizing conservation
+## The IUCN Red List of Threatened Species
 
-- Mapping biodiversity…
-- Local vs Global priorities
+.pull-left[
 
-- Species
-    - Mapping
-    - Threat assessments (and protection levels)
-          - Spatial traits
-          - Non-spatial traits? E.g. Do mutualisms matter?
-                - Need to consider the type of threat (Murray et al. 2014)
-          - Problems with basing conservation priority on (threatened) species?
-              - Not all species have been assessed
-              - Not all species have been identified and named!
-              - Species locality data are imperfect
-              - We are bias in our selection of species (“charismatic” megafauna vs nondescript etc species like sedges)
+Bins species into a set of categories representing threat of extinction based on five criteria...
 
-    - Ecosystems
-          - Mapping 
-          - Threats
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_criteria.jpg")
+```
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '97%'}
+knitr::include_graphics("images/iucn_rls_categories.jpg")
+```
+
+]
+
+Includes detailed classification of threats to species - habitat loss, exploitation, climate change, etc
+
+.footnote[https://www.iucnredlist.org/]
 
 
-Conservation planning
-  - Targets
-  - Spatial products
-  - Optimization algorithms
-  - GIS vs ecology?
+---
 
-“It is a hard reality that virtually all countries, no matter how well resourced, take conservation and land use decisions based on highly patchy and imperfect data - if indeed any data at all.” - Barnard et al. 2017
+## The IUCN Red List of Threatened Species - Criterion A
 
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_A.png")
+```
+
+---
+
+## The IUCN Red List - EOO & AOO
+
+```{r echo = F, fig.align = 'center', out.width = '60%'}
+knitr::include_graphics("images/rls_EOO_AOO.jpg")
+```
+
+---
+
+## The IUCN Red List of Threatened Species - Criterion B
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_B.png")
+```
+
+---
+
+## The IUCN Red List of Threatened Species - Criterion C
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_C.png")
+```
+
+---
+
+## The IUCN Red List of Threatened Species - Criteria D&E
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_DE.png")
+```
+
+---
+
+.pull-left[
+
+## The IUCN Red List of Threatened Species
+
+A somewhat complex governance process that you don't need to know for the exams...
+ 
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '80%'}
+knitr::include_graphics("images/rls_process.jpg")
+```
+
+]
 ---
 
 class: center, middle
 
-background-color: black
+## The IUCN Red List of Threatened Species
 
-text-color: white
+### >28% of all threatened plants are from Sub-Saharan Africa!!! 
+### (7195 of 25082)
 
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/blue_marble.jpg")
+---
+
+class: center
+
+## BUT!
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/raimondo2010.png")
 ```
 
+The first complete assessment of an entire flora...
+
+2577 (13%) of South Africa’s plant taxa are threatened with extinction
+
+A further 2232 (11%) are listed under other categories of conservation concern
+
+.footnote[[Raimondo 2010](http://dx.doi.org/10.4102/sajs.v107i3/4.653)]
+
 ---
 
-background-color: black
-background-image: url("images/earthrise.png")
-background-size: contain
-
-text-color: white
-
----
-
-## "The Blue Marble" and "Earthrise"
+## The IUCN Red List of Threatened Species - ***Incomplete!***
 
 .pull-left[
 
-```{r echo = F, fig.align = 'left', out.width = '82%'}
-knitr::include_graphics("images/blue_marble.jpg")
-```
-
-.footnote[Photo taken from the NASA Apollo 17 mission in 1972]
-]
-
-.pull_right[
-
-<br>
-
-These and other photographs taken by astronauts and early satellites in the late 1960s and early 1970s were among the first _earth observations_ from space.
-
-They highlight Earth as a single vulnerable, interconnected system in the darkness of space with limited resources (and space) and no escape options...
-
-They sparked a new era both in environmental consciousness and in the tools available to better understand and protect our environment.
-
-]
-
----
-
-## Learning goals for this lecture:
-
-- To provide an introduction to this module
-- To highlight that much of biodiversity conservation is a _spatial_ problem
-- To give you some idea how Geographic Information Systems (GIS) and remote sensing are used in conservation
-- To ground the above with local examples
-
----
-class: center
-
-## Habitat loss and degradation have been the greatest threats to biodiversity
-
-```{r echo = F, fig.align = 'centre', out.width = '80%'}
-knitr::include_graphics("images/redlistSA_threats.png")
-```
-
-.footnote[from the [Red List of South African Plants](http://redlist.sanbi.org/stats.php)]
-
----
-class: center
-
-### Expanding protected areas has been the primary approach to stemming biodiversity loss
-
-```{r echo = F, fig.align = 'centre', out.width = '65%'}
-knitr::include_graphics("images/bendingthecurve.jpg")
-```
-
-.footnote[from [IIASA via Phys.org](https://phys.org/news/2020-09-biodiversity-loss.html)]
-
----
-class: center
-
-## Global protected areas
-
-```{r echo = F, fig.align = 'centre', out.width = '80%'}
-knitr::include_graphics("images/protected_areas_map.png")
-```
-
-.footnote[from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
-
----
-class: center
-
-## Change in protected area and OECM coverage
-
-```{r echo = F, fig.align = 'centre', out.width = '85%'}
-knitr::include_graphics("images/protected_areas.png")
-```
-
-.footnote[from [Protected Planet](https://livereport.protectedplanet.net/chapter-3). Data in million km<sup>2<sup>.]
-
----
-## But there are many tough questions...
-
-- Where should we put (or expand) protected areas?
-- How do we ensure the effectiveness of our protected areas?
-- How do we protect biodiversity outside protected areas?
-
-Answering these requires:
-  - Mapping biodiversity
-  - Identifying and assessing threats to biodiversity
-  - Setting (spatial) biodiversity conservation priorities
-  - Protected area design
-  - Tools to inform management
-    - Monitoring change in biodiversity and other key variables (e.g. fire, land cover change, etc)
-
-<br>
-
-> _Most of these are inherently spatial problems, typically requiring use of GIS_
-
-> _Most can benefit from satellite remote sensing_
-
----
-
-layout: false
-
-### Mapping biodiversity
-
-.pull-left[
-
-The biomes of South Africa...
+Just over 150 000 species have been assessed to date (in ±60 years). Only ~62 000 are plants.
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/biomes.png")
+knitr::include_graphics("images/iucn_rls_progress.png")
 ```
 
-.footnote[[Dayaram et al. 2019](https://doi.org/10.4102/abc.v49i1.2452)]
+Only a few groups have near-complete coverage (pictured above)...
+
+.footnote[https://www.iucnredlist.org/]
+
 ]
 
 .pull-right[
 
-Estimated plant species richness across South Africa
+This is a huge achievement, but...
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/species_number_gaston_2010.png")
+```
+
+There are an estimated 8 million species!!! Many yet to be described!
+
+.footnote[[Gaston 2010](https://conbio.org/images/content_publications/ConservationBiologyforAll_reducedsize.pdf)]
+
+]
+
+---
+
+class: center
+
+## Beyond taxonomy, there're other data issues...
 
 ```{r echo = F, fig.align = 'center', out.width = '85%'}
-knitr::include_graphics("images/cramer_verboom_2017.jpg")
+knitr::include_graphics("images/gbif_records.png")
 ```
 
-.footnote[[Cramer and Verboom 2017](http://dx.doi.org/10.1111/jbi.12911)]
+.footnote[Localities from the [Global Biodiversity Information Facility](https://gbif.org)]
+
+---
+
+.pull-left[
+
+## The IUCN Red List of Threatened Species - ***Still useful!***
+
+Especially for taxonomic groups that are mostly complete, e.g. mammals, birds and amphibians...
+
+<br>
+
+These can be used in interesting ways, because we have data on the threats faced by the species, e.g.
+
+- [Harfoot et al. 2021](http://dx.doi.org/10.1038/s41559-021-01542-9) _Using the IUCN Red List to map threats to terrestrial vertebrates at global scale_
+
+Many ways in which patchy data can still be useful!
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rls_threats.webp")
+```
+
+.footnote[]
 
 ]
 
 ---
 
-layout: false
-
-### Assessing threats to biodiversity
-
 .pull-left[
 
-The remaining extent of the biomes of South Africa...
+## Another approach...
+
+The IUCN Red List of Ecosystems assesses the threat of ecosystem collapse...
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/biome_remnants.png")
+knitr::include_graphics("images/rle_categories.jpg")
 ```
 
-.footnote[[Skowno et al. 2021](http://dx.doi.org/10.17159/sajs.2021/8182)]
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rle.svg")
+```
+
+.footnote[https://iucnrle.org/]
+
+]
+
+---
+
+## The IUCN Red List of Ecosystems
+
+.pull-left[
+Requires an ecosystem typology - which SA has...
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/sa_ecosystems.png")
+```
+
+.footnote[[Skowno et al. 2019](http://hdl.handle.net/20.500.12143/6362)]
 ]
 
 .pull-right[
 
-SA plant taxa of conservation concern
+Based on similar criteria to the Red List of Species
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/rle_criteria.png")
+```
+
+.footnote[[Bland et al. 2017](https://doi.org/10.2305/IUCN.CH.2016.RLE.3.en)]
+]
+
+---
+
+class: center
+
+## Basic workflow for RLE criteria A-C
+
+```{r echo = F, fig.align = 'center', out.width = '75%'}
+knitr::include_graphics("images/rle_workflow2.png")
+```
+
+---
+
+class: center
+
+## Not all ecosystems have been assessed either...
+
+```{r echo = F, fig.align = 'center', out.width = '80%'}
+knitr::include_graphics("images/rle_assessments_23May2022.png")
+```
+
+.footnote[https://assessments.iucnrle.org/]
+
+---
+
+class: center
+
+## In fact, not all ecosystems have been defined!
+
+```{r echo = F, fig.align = 'center', out.width = '65%'}
+knitr::include_graphics("images/global_ecosystem_typology.png")
+```
+
+...but attempts are being made - https://global-ecosystems.org/
+
+---
+
+## South Africa is ahead of the curve
+
+.pull-left[
+
+SA plant (and other) taxa of conservation concern
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/redlist_map.png")
 ```
 
 .footnote[[Red List of South African Plants](http://redlist.sanbi.org/stats.php)]
-]
 
----
-
-layout: false
-
-### Setting conservation priorities
-
-.pull-left[
-
-Biodiversity priority areas of South Africa...
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/Biodiversity_priority_areas_SA_2011.png")
-```
-
-.footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
 ]
 
 .pull-right[
@@ -382,455 +479,47 @@ knitr::include_graphics("images/rle_SA_Skowno2021.webp")
 
 ---
 
-layout: false
-
-### Tools to inform management
-
-.pull-left[
-
-Fire history...
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/Biodiversity_priority_areas_SA_2011.png")
-```
-
-.footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
-]
-
-.pull-right[
-
-Near-real-time vegetation change
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/rle_SA_Skowno2021.webp")
-```
-
-.footnote[[Moncrieff 2021]() - _Global Overberg Ruens Renosterveld Watch_]
-]
-
----
-
-class: center, middle
-
-### We want to measure biodiversity everywhere, all the time...
-
-```{r echo = F, fig.align = 'center', out.width = '80%'}
-knitr::include_graphics("images/world_seasonality.gif")
-```
-
-.center[Remote sensing is pretty much the only way this can be achieved...]
-
----
-
-layout: false
-
-.pull-left[
-
-## It's a rapidly growing field
-
-```{r echo = F, fig.align = 'left', out.width = '90%'}
-knitr::include_graphics("images/turner2003.png")
-```
-
-```{r echo = F, fig.align = 'left', out.width = '90%'}
-knitr::include_graphics("images/satellitelaunches.jpg")
-```
-
-.footnote[Turner et al. 2003]
-]
-
-.pull-right[
-
-```{r echo = F, fig.align = 'left', out.width = '75%'}
-knitr::include_graphics("images/cavenderbares2020.png")
-```
-.footnote[Cavender-Bares et al. 2020]
-
-]
-
----
-
 class: center
 
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape.png")
-```
-.left[.footnote[...and the Cape is about to be the epicentre of this endeavour - https://www.bioscape.io/]]
-
----
-
-layout: false
-
-## BioSCape: Biodiversity Survey of the Cape
-
-.pull-left[
-
-- $>$ 100 scientists and conservation practitioners
-- 16 teams (mixed US, RSA, other)
-- terrestrial and aquatic
-- 2 planes
-- 4 instruments (hyperspectral and LiDAR)
-- fundamental and applied science
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_planes.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_kumu.png")
-```
-.footnote[www.bioscape.io]
-]
-
----
-
-class: center, middle
-
-## But how do we actually measure biodiversity with remote sensing?
-
----
-
-layout: false
-
-.pull-left[
-## There are many facets of biodiversity to measure!
-
-<br>
-
-An advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity... 
-
-...at least from the scale of individuals up...
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/Noss_Biodiversity.png")
-```
-.footnote[Noss 1990, _Conservation Biology_]
-]
-
----
-
-layout: false
-
-.pull-left[
-## There are many facets of biodiversity to measure!
-
-An advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity... 
-
-
-```{r echo = F, fig.align = 'center', out.width = '120%'}
-knitr::include_graphics("images/skidmore2021_fig1.png")
-```
-.footnote[Skidmore et al. 2021]
-
-]
-
-.pull-right[
-
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/ebv_circle.png")
-```
-
-
-...at least from the scale of individuals up...
-
-.footnote[https://geobon.org/]
-
-]
-
----
-
-class: center
-
-##Productivity and Seasonality
-
-```{r echo = F, fig.align = 'center', out.width = '80%'}
-knitr::include_graphics("images/world_seasonality.gif")
-```
-
----
-
-class: center
-
-##Land cover (and change)
-
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/skowno2021.jpg")
-```
-
-.left[.footnote[Skowno et al. 2021]]
-
----
-
-class: center
-
-##Land cover change detection
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/renosterveld_planet.gif")
-```
-
-.left[.footnote[Moncrieff 2022]]
-
----
-
-class: center
-
-##Land cover change time series
+## We use our threat assessments in a range of ways
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
-knitr::include_graphics("images/moilwe.png")
+knitr::include_graphics("images/sa_npaes.png")
 ```
 
-.left[.footnote[Moilwe et al. in prep]]
-
----
-
-class: center, middle
-
-## But what about metrics like species, functional and phylogenetic diversity?
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/peninsula_lidar.png")
-```
-
-Proteaceae shrubs (dark green) surrounded by low shrubs, forbs and graminoids at Silvermine, TMNP. 
-
-.footnote[Data from City of Cape Town]
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/purkis_klemas2011_lidar.png")
-```
-
-Light detection and ranging (LiDAR) allows you to measure topography and the vertical structure of vegetation.
-
-.footnote[Purkis and Klemas 2011]
-]
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-Imaging spectroscopy ("hyperspectral" remote sensing) allows direct measurement of leaf traits.
-
-```{r echo = F, fig.align = 'left', out.width = '92%'}
-knitr::include_graphics("images/cawse2021_spectra.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/peninsula_hyperspec.png")
-```
-]
-
----
-
-layout: false
-
-## Phylogenetic diversity?
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/meireles2020.jpg")
-```
-
-.left[.footnote[Meireles et al. 2020]]
-
-Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
-
----
-
-layout: false
-
-.pull-left[
-## Identifying species?
-
-We can monitor populations of large species..., but identifying all species present...?
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/machine_learning.png")
-```
-
-.footnote[https://xkcd.com/1838/]
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '75%'}
-knitr::include_graphics("images/cedars_pic.png")
-knitr::include_graphics("images/cedars_mapped.png")
-```
-
-.footnote[Hadebe 2021 MSc thesis]
-]
+e.g. informing our protected area expansion strategy ([NPAES 2018](https://www.dffe.gov.za/sites/default/files/docs/national_protectedareas_expansionstrategy2018ofsouthafrica.pdf))
 
 ---
 
 class: center
 
-##There are challenges and limitations...
+## We use our threat assessments in a range of ways
 
-```{r echo = F, fig.align = 'center', out.width = '50%'}
-knitr::include_graphics("images/schimel2020_scale.png")
+```{r echo = F, fig.align = 'center', out.width = '80%'}
+knitr::include_graphics("images/sa_rle_gazette.png")
 ```
 
-.left[.footnote[Schimel et al. 2020]]
+Threatened ecosystems are afforded (some) protection under law ([NEM:BA (Biodiversity Act) 2004](https://cer.org.za/virtual-library/legislation/national/biodiversity-and-conservation/national-environmental-management-biodiversity-act-2004))
 
 ---
 
-class: center
-
-##But this is what fancy modelling and proxies are for...
-
-```{r echo = F, fig.align = 'center', out.width = '43%'}
-knitr::include_graphics("images/jetz2016.png")
-```
-
-.left[.footnote[Jetz et al. 2016]]
-
----
-
-layout: false
-
-.pull-left[
-## Combining remote sensing and in situ data
-
-Using remotely sensed environmental data to inform species distribution models
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/wilson2016.png")
-```
-
-E.g. Observed cloud frequency from the MODIS satellite is a better predictor of the distribution of _Protea cynaroides_ than interpolated precipitation.
-
-.footnote[Wilson and Jetz 2016]
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/randin2020.jpg")
-```
-.footnote[Randin et al. 2020]
-]
-
----
-
-layout: false
-
-.pull-left[
-## The Spectral Diversity Hypothesis
-
-Is spectral diversity a good proxy for biotic diversity?
-
-```{r echo = F, fig.align = 'left', out.width = '100%'}
-knitr::include_graphics("images/frye2021map.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/frye2021fig.png")
-```
-
-A test looking at spectral diversity from leaf spectra for 1210 species across 1267 plots supports the hypothesis **at the leaf level...**
-
-.footnote[Frye et al. 2021]
-]
-
----
-
-layout: false
-
-.pull-left[
-## The Spectral Diversity Hypothesis
-
-
-```{r echo = F, fig.align = 'left', out.width = '85%'}
-knitr::include_graphics("images/vanleeuwen2020_scale.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/vanleeuwen2020b.png")
-```
-
-But canopy reflectance is more complex...
-
-Leaf angle, shadow, density, etc affect the spectral reflectance of vegetation, reducing our ability to identify and map species - especially as the resolution of the imagery coarsens.
-
-.footnote[van Leeuwen et al. 2021]
-]
-
----
-
-layout: false
-
-.pull-left[
-### Environmental heterogeneity
-
-Another approach is just to map and monitor environmental heterogeneity
-
-####_"Conserving nature's stage"_
-
-The Nature Conservancy and others using this approach to identify parcels of Earth that are valuable for their capacity to support diverse life forms today and into the future
-
-Typically identified based on their abiotic heterogeneity or geodiversity, much of which can be mapped and/or monitored with remote sensing - topography, climate, soils, etc
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '90%'}
-knitr::include_graphics("images/humboldt.jpg")
-```
-.footnote[Alexander von Humboldt]
-]
-
----
 class: middle
 
 ## Take-home
 
->*There are many ways to measure biodiversity. None are perfect. You should treat them as hypotheses.*
+>*The conservation of resources is likely as old as cooperation among humans.*
 
->*How you measure biodiversity can affect the outcome of your study. There are many ways to measure biodiversity incorrectly for the application at hand!*
+>*There are many facets of biodiversity and ways to measure them that could be used as conservation priorities.*
+> - *It's important to think about the potential negative impacts of any one measure or priority,*
 
->*Measures of biodiversity allow us to explore:*
-> - *How biodiversity is generated and communities are assembled*
-> - *How biodiversity affects ecosystem functions, including benefits to society*
-> - *How the environment is changing with time and human impacts*
+>*Modern conservation of biodiversity is largely focused on trying to avoid losing anything. Other criteria come into conservation planning, but species and ecosystem threat assessments are high up there.*
 
->*Community assembly, biotic effects on ecosystem function, and responses to global change are tightly intertwined*
+>*The IUCN have developed globally accepted guidelines for species and ecosystem threat assessments.*
+> - *Unfortunately, not all species and ecosystems on the planet have been assessed...*
 
----
-
-## References
-
-```{r refs, echo=FALSE, results="asis"}
-NoCite(myBib)
-PrintBibliography(myBib)
-```
+>*South Africa has assessed all ecosystems and most species for a number of taxonomic groups (plants, amphibians, fish, etc) and we use this for a number of purposes*
+> - *Systematic Conservation Planning - e.g. Protected area expansion strategies*
+> - *Our ecosystems are afforded protection under law, even outside reserves*
 
 ---
 class: center, middle
