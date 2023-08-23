@@ -63,61 +63,38 @@ library(kableExtra)
 # xaringanExtra::use_tile_view()
 ```
 
----
+## "The completion of conservation planning..."
 
-History...
-- Species Threat Assessments
-- IUCN
-- Ecosystem Threat Assessments
-  - SA vs IUCN RLE
-  
-  
-- Finish with near-real time data and modelling needs...
-  - See end of Brooks 2011 chapter, Hoffmann 2021, etc
+### [Brooks 2010 in _Conservation Biology for All_](https://doi.org/10.1093/acprof:oso/9780199554232.003.0012)
 
----
+ "...conservation planning is a discipline with its completion in sight. It is not too far of a stretch to imagine a day where..." [we have]:
+ 
+- complete and continuous updating of IUCN Red List assessments of all species [and ecosystems]
+- iterative identification of key biodiversity areas, representing all sites of global conservation significance
+- measurement and mapping of:
+    - the continuous global surface of seascape and landscape scale ecological processes necessary to retain these species and sites into the future
+    - the threats to these species, sites, and sea/landscapes, and of the costs and benefits of conserving them.
+- free, electronic, continuously updated access to these datasets, and tools for their interpretation, planning, and prioritization
 
-Prioritizing conservation
-
-- Mapping biodiversity…
-- Local vs Global priorities
-
-- Species
-    - Mapping
-    - Threat assessments (and protection levels)
-          - Spatial traits
-          - Non-spatial traits? E.g. Do mutualisms matter?
-                - Need to consider the type of threat (Murray et al. 2014)
-          - Problems with basing conservation priority on (threatened) species?
-              - Not all species have been assessed
-              - Not all species have been identified and named!
-              - Species locality data are imperfect
-              - We are bias in our selection of species (“charismatic” megafauna vs nondescript etc species like sedges)
-
---- 
-
-    - Ecosystems
-          - Mapping 
-          - Threats
-
-
-Conservation planning
-  - Targets
-  - Spatial products
-  - Optimization algorithms
-  - GIS vs ecology?
-
-“It is a hard reality that virtually all countries, no matter how well resourced, take conservation and land use decisions based on highly patchy and imperfect data - if indeed any data at all.” - Barnard et al. 2017
+> "A particularly important characteristic of such a vision is its iterative nature."
 
 ---
 
-End of notes
+## My take?
+
+We'll never be able to automate conservation planning (and actions), but we certainly can do better to automate (or at east semi-automate) data collection, processing (including modelling) and dissemination to decision makers.
+
+```{r echo = F, fig.align = 'center', out.width = '60%'}
+knitr::include_graphics("images/mee_ecoforecast_figure1.png")
+```
+
+.footnote[[Slingsby et al. 2023. _Regional ecological forecasting across scales: A manifesto for a biodiversity hotspot._](http://dx.doi.org/10.1111/2041-210x.14046)]
 
 ---
 
 class: center, middle
 
-### We want to measure biodiversity everywhere, all the time...
+### We want to monitor biodiversity everywhere, all the time...
 
 ```{r echo = F, fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("images/world_seasonality.gif")
@@ -131,63 +108,25 @@ layout: false
 
 .pull-left[
 
-## It's a rapidly growing field
+## Remote sensing of biodiversity 
+#### A rapidly growing field!!!
 
-```{r echo = F, fig.align = 'left', out.width = '90%'}
+```{r echo = F, fig.align = 'center', out.width = '70%'}
 knitr::include_graphics("images/turner2003.png")
 ```
 
-```{r echo = F, fig.align = 'left', out.width = '90%'}
+```{r echo = F, fig.align = 'center', out.width = '70%'}
 knitr::include_graphics("images/satellitelaunches.jpg")
 ```
 
-.footnote[Turner et al. 2003]
 ]
 
 .pull-right[
 
-```{r echo = F, fig.align = 'left', out.width = '75%'}
+```{r echo = F, fig.align = 'left', out.width = '77%'}
 knitr::include_graphics("images/cavenderbares2020.png")
 ```
-.footnote[Cavender-Bares et al. 2020]
 
-]
-
----
-
-class: center
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape.png")
-```
-.left[.footnote[...and the Cape is about to be the epicentre of this endeavour - https://www.bioscape.io/]]
-
----
-
-layout: false
-
-## BioSCape: Biodiversity Survey of the Cape
-
-.pull-left[
-
-- $>$ 100 scientists and conservation practitioners
-- 16 teams (mixed US, RSA, other)
-- terrestrial and aquatic
-- 2 planes
-- 4 instruments (hyperspectral and LiDAR)
-- fundamental and applied science
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_planes.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/bioscape_kumu.png")
-```
-.footnote[www.bioscape.io]
 ]
 
 ---
@@ -250,13 +189,72 @@ knitr::include_graphics("images/ebv_circle.png")
 
 ---
 
+## And many sensor types that can measure them!
+
+.left-column[
+
+Active vs passive sensors
+
+Multispectral vs hyperspectral (imaging spectrometers)
+
+Much variation within each type 
+
+- Especially spectral range and resolution!
+
+.footnote[[Pettorelli et al. 2018](http://dx.doi.org/10.13140/RG.2.2.25962.41926)]
+]
+
+.right-column[
+```{r echo = F, fig.align = 'center', out.width = '75%'}
+knitr::include_graphics("images/pettorelli2018_sensors.png")
+```
+
+]
+
+
+
+---
+
+background-image: url("images/nasa_ems.jpeg")
+background-size: contain
+
+text-color: white
+
+## The Electromagnetic Spectrum
+
+---
+
+class: center, middle
+
+### Remote sensing is particularly useful in combo with other observations
+
+```{r echo = F, fig.align = 'center', out.width = '60%'}
+knitr::include_graphics("images/turner2014.jpeg")
+```
+
+.footnote[[Turner 2014](https://doi-org.ezproxy.uct.ac.za/10.1126/science.1256014)]
+
+---
+
 class: center
 
-##Productivity and Seasonality
+## Productivity and Seasonality
 
-```{r echo = F, fig.align = 'center', out.width = '80%'}
+```{r echo = F, fig.align = 'center', out.width = '90%'}
 knitr::include_graphics("images/world_seasonality.gif")
 ```
+
+---
+
+class: center
+
+##Land cover and ecosystem mapping
+
+```{r echo = F, fig.align = 'center', out.width = '85%'}
+knitr::include_graphics("images/remap_sibaya.png")
+```
+
+.left[.footnote[https://remap-app.org/]]
 
 ---
 
@@ -268,19 +266,7 @@ class: center
 knitr::include_graphics("images/skowno2021.jpg")
 ```
 
-.left[.footnote[Skowno et al. 2021]]
-
----
-
-class: center
-
-##Land cover change detection
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/renosterveld_planet.gif")
-```
-
-.left[.footnote[Moncrieff 2022]]
+.left[.footnote[[Skowno et al. 2021](http://dx.doi.org/10.17159/sajs.2021/8182)]]
 
 ---
 
@@ -293,6 +279,67 @@ knitr::include_graphics("images/moilwe.png")
 ```
 
 .left[.footnote[Moilwe et al. in prep]]
+
+---
+
+class: center
+
+##Land cover change detection
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/renosterveld_planet.gif")
+```
+
+.left[.footnote[[Moncrieff 2022](http://dx.doi.org/10.3390/rs14122766)]]
+
+---
+
+class: center
+
+##Land cover change detection
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_app("https://www.globalforestwatch.org/map/", 
+  height = "400px")
+```
+
+.left[.footnote[www.globalforestwatch.org - but clearly erroneous in places due to lack of local knowledge!!!]]
+
+---
+
+class: center
+
+## Detecting subtle changes in ecological condition
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos1.png")
+```
+
+.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
+
+---
+
+class: center
+
+## Detecting subtle changes in ecological condition
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos2.png")
+```
+
+.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
+
+---
+
+class: center
+
+## Detecting subtle changes in ecological condition
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos3.png")
+```
+
+.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
 
 ---
 
@@ -371,7 +418,7 @@ layout: false
 
 We can monitor populations of large species..., but identifying all species present...?
 
-```{r echo = F, fig.align = 'center', out.width = '70%'}
+```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/machine_learning.png")
 ```
 
@@ -384,7 +431,7 @@ knitr::include_graphics("images/cedars_pic.png")
 knitr::include_graphics("images/cedars_mapped.png")
 ```
 
-.footnote[Hadebe 2021 MSc thesis]
+.footnote[[Slingsby and Slingsby 2019](http://dx.doi.org/10.7717/peerj.7005), Hadebe 2021 MSc thesis]
 ]
 
 ---
@@ -403,13 +450,13 @@ knitr::include_graphics("images/schimel2020_scale.png")
 
 class: center
 
-##But this is what fancy modelling and proxies are for...
+## Spectral unmixing can detect "spectral signatures"
 
-```{r echo = F, fig.align = 'center', out.width = '43%'}
-knitr::include_graphics("images/jetz2016.png")
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/jonaskop_unmix.png")
 ```
 
-.left[.footnote[Jetz et al. 2016]]
+.left[.footnote[ We can map species (e.g. pines) or land cover types based on their reflectance of the electromagnetic spectrum!]]
 
 ---
 
@@ -525,6 +572,48 @@ Images from space provide a greater awareness and connection with the planet - t
 .footnote[Google Earth Timelapse (Google, Landsat, Copernicus)]
 
 ---
+
+class: center
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/bioscape.png")
+```
+.left[.footnote[...and the Cape is about to be the epicentre of this endeavour - https://www.bioscape.io/]]
+
+---
+
+layout: false
+
+## BioSCape: Biodiversity Survey of the Cape
+
+.pull-left[
+
+- $>$ 100 scientists and conservation practitioners
+- 16 teams (mixed US, RSA, other)
+- terrestrial and aquatic
+- 2 planes
+- 4 instruments (hyperspectral and LiDAR)
+- fundamental and applied science
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/bioscape_planes.png")
+```
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/bioscape_kumu.png")
+```
+.footnote[www.bioscape.io]
+]
+
+---
+
+background-image: url("images/Bioscape infographic_e3.jpg")
+background-size: contain
+
+---
 class: middle
 
 ## Take-home
@@ -539,15 +628,6 @@ class: middle
 > - *How the environment is changing with time and human impacts*
 
 >*Community assembly, biotic effects on ecosystem function, and responses to global change are tightly intertwined*
-
----
-
-## References
-
-```{r refs, echo=FALSE, results="asis"}
-NoCite(myBib)
-PrintBibliography(myBib)
-```
 
 ---
 class: center, middle
