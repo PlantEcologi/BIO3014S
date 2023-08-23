@@ -302,7 +302,7 @@ A further 2232 (11%) are listed under other categories of conservation concern
 
 .pull-left[
 
-Just over 150 000 species have been assessed to date (in ±60 years). Only ~62 000 are plants.
+Just over 150 000 species have been assessed to date (in ±60 years). ~62 000 are plants.
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/iucn_rls_progress.png")
@@ -374,9 +374,9 @@ knitr::include_graphics("images/rls_threats.webp")
 
 ## Another approach...
 
-The IUCN Red List of Ecosystems assesses the threat of ecosystem collapse...
+The IUCN Red List of Ecosystems (RLE) takes an _ecosystem-based_ approach, assessing the threat of ecosystem collapse...
 
-```{r echo = F, fig.align = 'center', out.width = '100%'}
+```{r echo = F, fig.align = 'center', out.width = '94%'}
 knitr::include_graphics("images/rle_categories.jpg")
 ```
 
@@ -452,7 +452,7 @@ knitr::include_graphics("images/global_ecosystem_typology.png")
 
 ---
 
-## South Africa is ahead of the curve
+## South Africa has assessed all ecosystems and most taxa!
 
 .pull-left[
 
@@ -481,25 +481,73 @@ knitr::include_graphics("images/rle_SA_Skowno2021.webp")
 
 class: center
 
-## We use our threat assessments in a range of ways
+## We use these threat assessments in a range of ways
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/sa_npaes.png")
 ```
 
-e.g. informing our protected area expansion strategy ([NPAES 2018](https://www.dffe.gov.za/sites/default/files/docs/national_protectedareas_expansionstrategy2018ofsouthafrica.pdf))
+e.g. as targets for our protected area expansion strategy ([NPAES 2018](https://www.dffe.gov.za/sites/default/files/docs/national_protectedareas_expansionstrategy2018ofsouthafrica.pdf))
 
 ---
 
 class: center
 
-## We use our threat assessments in a range of ways
+## We use these threat assessments in a range of ways
 
 ```{r echo = F, fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("images/sa_rle_gazette.png")
 ```
 
 Threatened ecosystems are afforded (some) protection under law ([NEM:BA (Biodiversity Act) 2004](https://cer.org.za/virtual-library/legislation/national/biodiversity-and-conservation/national-environmental-management-biodiversity-act-2004))
+
+---
+
+## We also use other criteria not presented thus far...
+
+.pull-left[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/wc_bsp2017_map.png")
+```
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/wc_bsp2017_categories.png")
+```
+
+The _targets_ are things like percentage representation of all ecosystems
+
+]
+
+.footnote[[Western Cape Biodiversity Spatial Plan 2017](https://www.capenature.co.za/uploads/files/protected-area-management-plans/SANBI_WCBSP-Handbook.pdf)]
+
+---
+
+## There are also other criteria for priorities in the making...
+
+.pull-left[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/iucn_nbs.png")
+```
+
+There is increasing focus on nature-based solutions to the climate crisis...
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/brum2017.jpeg")
+```
+
+[Brum et al. 2017](https://doi.org/10.1073/pnas.1706461114) propose considering threats to functional and phylogenetic diversity
+
+]
 
 ---
 
@@ -510,7 +558,7 @@ class: middle
 >*The conservation of resources is likely as old as cooperation among humans.*
 
 >*There are many facets of biodiversity and ways to measure them that could be used as conservation priorities.*
-> - *It's important to think about the potential negative impacts of any one measure or priority,*
+> - *It's important to think about the potential negative impacts of any one measure or priority*
 
 >*Modern conservation of biodiversity is largely focused on trying to avoid losing anything. Other criteria come into conservation planning, but species and ecosystem threat assessments are high up there.*
 
