@@ -14,7 +14,7 @@ The module includes 4 lectures, a practical and a discussion of a journal articl
 1. [Space and Conservation](1_SpaceConservation1)
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. [Threat Assessment](3_ThreatAssessments)
-4. Remote sensing of Biodiversity
+4. [Remote sensing of Biodiversity](4_RemoteSensingBio)
 5. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). Please answer the questions in the Google Form prior to the discussion. These answers and participation in the discussion cound 30% of your mark for this module.
 
 
