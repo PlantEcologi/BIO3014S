@@ -467,6 +467,31 @@ class: center
 
 ## Spectral unmixing can detect "spectral signatures"
 
+.left-column[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/jonaskop_class.png")
+```
+]
+
+.right-column[
+
+Map species or cover types based on their reflectance of the electromagnetic spectrum!
+
+```{r echo = F, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics("images/jonaskop_spectral_library.png")
+```
+
+Given a library of spectral signatures of different species and land cover types (endmembers), spectral unmixing infers the composition of each pixel from the possible mixes of endmembers. This gives a cover map of the majority endmember for each pixel (as here) and the fraction of each endmember for all pixels (next slide).
+
+]
+
+---
+
+class: center
+
+## Spectral unmixing can detect "spectral signatures"
+
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/jonaskop_unmix.png")
 ```
@@ -522,32 +547,6 @@ knitr::include_graphics("images/frye2021fig.png")
 A test looking at spectral diversity from leaf spectra for 1210 species across 1267 plots supports the hypothesis **at the leaf level...**
 
 .footnote[Frye et al. 2021]
-]
-
----
-
-layout: false
-
-.pull-left[
-## The Spectral Diversity Hypothesis
-
-
-```{r echo = F, fig.align = 'left', out.width = '85%'}
-knitr::include_graphics("images/vanleeuwen2020_scale.png")
-```
-
-]
-
-.pull-right[
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/vanleeuwen2020b.png")
-```
-
-But canopy reflectance is more complex...
-
-Leaf angle, shadow, density, etc affect the spectral reflectance of vegetation, reducing our ability to identify and map species - especially as the resolution of the imagery coarsens.
-
-.footnote[van Leeuwen et al. 2021]
 ]
 
 ---
@@ -633,16 +632,19 @@ class: middle
 
 ## Take-home
 
->*There are many ways to measure biodiversity. None are perfect. You should treat them as hypotheses.*
+>*Spatially explicit biodiversity and environmental data, monitored over the long term, but made available in near-real-time, are a critical basis for conservation planning and management*
+> - *satellite remote sensing is pretty much the only way this can be achieved*
 
->*How you measure biodiversity can affect the outcome of your study. There are many ways to measure biodiversity incorrectly for the application at hand!*
+>*There are many ways to measure biodiversity (or factors affecting biodiversity like fire or weather), and satellite data can be used to measure a large number of them*
 
->*Measures of biodiversity allow us to explore:*
-> - *How biodiversity is generated and communities are assembled*
-> - *How biodiversity affects ecosystem functions, including benefits to society*
-> - *How the environment is changing with time and human impacts*
+>*The number and variety of satellite sensor types is rapidly expanding, providing new and better ways to measure biodiversity all the time!*
 
->*Community assembly, biotic effects on ecosystem function, and responses to global change are tightly intertwined*
+>*Some aspects of biodiversity are not directly observable from satellites (e.g. small species, or diversity metrics like species richness or phylogenetic diversity), but can often be inferred using proxies or models.*
+
+>*Ground data are essential for calibrating and validating almost any remotely-sensed data product.*
+
+>*Local understanding of the ecology of the species or ecosystems under study is essential for the interpretation (and often analysis) of almost any biodiversity-related remote sensing product*
+> - *Many global products fall short because of this issue*
 
 ---
 class: center, middle
