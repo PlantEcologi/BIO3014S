@@ -92,15 +92,24 @@ knitr::include_graphics("images/mee_ecoforecast_figure1.png")
 
 ---
 
+## We're starting to do this...
+
+```{r echo = F, fig.align = 'center', out.width = '55%'}
+knitr::include_graphics("images/emma_prototype.png")
+```
+
+.left[.footnote[[www.emma.eco](https://www.emma.eco/)]]
+---
+
 class: center, middle
 
-### We want to monitor biodiversity everywhere, all the time...
+### If we want to monitor biodiversity everywhere, all the time...
 
 ```{r echo = F, fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("images/world_seasonality.gif")
 ```
 
-.center[Remote sensing is pretty much the only way this can be achieved...]
+.center[...satellite remote sensing is pretty much the only way this can be achieved!]
 
 ---
 
@@ -148,6 +157,8 @@ An advantage of remote sensing is that it can directly measure the structure, co
 
 ...at least from the scale of individuals up...
 
+..., but we can also use proxies and models to infer finer scales.
+
 ]
 
 .pull-right[
@@ -170,7 +181,7 @@ An advantage of remote sensing is that it can directly measure the structure, co
 ```{r echo = F, fig.align = 'center', out.width = '120%'}
 knitr::include_graphics("images/skidmore2021_fig1.png")
 ```
-.footnote[Skidmore et al. 2021]
+.footnote[[Skidmore et al. 2021](http://dx.doi.org/10.1038/s41559-021-01451-x)]
 
 ]
 
@@ -220,7 +231,9 @@ background-size: contain
 
 text-color: white
 
+.left-column[
 ## The Electromagnetic Spectrum
+]
 
 ---
 
@@ -315,7 +328,7 @@ class: center
 knitr::include_graphics("images/medecos1.png")
 ```
 
-.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
 
 ---
 
@@ -327,7 +340,7 @@ class: center
 knitr::include_graphics("images/medecos2.png")
 ```
 
-.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
 
 ---
 
@@ -339,13 +352,15 @@ class: center
 knitr::include_graphics("images/medecos3.png")
 ```
 
-.left[.footnote[Slingsby et al. _in prep_. - _Requires a model for how the ecosystem should behave!_]]
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
 
 ---
 
 class: center, middle
 
-## But what about metrics like species, functional and phylogenetic diversity?
+## These tools give an indication of the status of ecosystems or of species' habitat,...
+
+###...but what about more direct measures of biodiversity like species, functional and phylogenetic diversity?
 
 ---
 
@@ -405,7 +420,7 @@ layout: false
 knitr::include_graphics("images/meireles2020.jpg")
 ```
 
-.left[.footnote[Meireles et al. 2020]]
+.center[.footnote[Meireles et al. 2020]]
 
 Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
 
