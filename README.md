@@ -11,6 +11,9 @@ Students will have some insight into the field of spatial conservation planning,
 The module includes 4 lectures, a practical and a discussion of a journal article.
 
 ### Lectures (12-16 August 2024):
+
+_Note:_ These are currently last year's lectures and they will be updated the day before the lecture.
+
 1. [Space and Conservation](1_SpaceConservation1)
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. [Threat Assessment](3_ThreatAssessments)
