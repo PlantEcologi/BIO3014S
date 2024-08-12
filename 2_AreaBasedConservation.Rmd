@@ -138,6 +138,8 @@ class: center
 knitr::include_graphics("images/km_gbfcheatsheet_english_0.png")
 ```
 
+.footnote[[Cheat sheet to the Global Biodiversity Framework](https://www.uib.no/en/cesam/159846/cheat-sheet-kunming-montr%C3%A9al-global-biodiversity-framework).]
+
 ---
 
 ## The [Global Biodiversity Framework](https://www.cbd.int/gbf/)
@@ -180,8 +182,8 @@ Targets 1, 2 and 3 are all area-centric:
 ## [The 2010 Biodiversity Target](https://www.cbd.int/2010-target) (7 focal areas)
 
 - _**Reducing the rate of loss**_ of the components of biodiversity, including: (i) biomes, habitats and ecosystems; (ii) species and populations; and (iii) genetic diversity;
-    - Target 1.1: At least 10% of each of the world's ecological regions effectively conserved.
-    - Target 1.2: Areas of particular importance to biodiversity protected
+    - **Target 1.1: At least 10% of each of the world's ecological regions effectively conserved.**
+    - **Target 1.2: Areas of particular importance to biodiversity protected**
 - Promoting sustainable use of biodiversity;
 - Addressing the major threats to biodiversity, including those arising from invasive alien species, climate change, pollution, and habitat change;
 - Maintaining ecosystem integrity, and the provision of goods and services provided by biodiversity in ecosystems, in support of human well-being;
@@ -333,6 +335,8 @@ class: center, middle
 - Cannot consider local nuance
 ]
 
+--
+
 .pull-right[
 ### Local
 
@@ -354,7 +358,7 @@ Historically, many conservation areas are focused on either a target **species**
 
   - e.g. Bontebok National Park vs [Nieuwoudtville Wild Flower Reserve](https://www.nieuwoudtville.com/flower-routes/) vs the [Cape Floral Region Protected Areas UNESCO World Heritage Site](https://whc.unesco.org/en/list/1007/)
 
-I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas. It's usually more about how they are managed.
+I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas. It's usually more about where they are located and how they are managed.
 
   - e.g. Bontebok National Park used to be burnt very frequently and areas were even fertilized to encourage forage for the Bontebok, often to the detriment of the flora in the Park
 
@@ -382,6 +386,8 @@ Unfortunately, the existing networks usually contain a **biased sample** of biod
 
 ]
 
+--
+
 .pull-right[
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
@@ -391,6 +397,115 @@ knitr::include_graphics("images/margules_pressey_2000.png")
 > _"A more systematic approach to locating and designing reserves [...] will need to be implemented if a large proportion of today’s biodiversity is to exist in [...] future..."_ - [Margules and Pressey 2000](http://dx.doi.org/10.1038/35012251)
 
 This is called ***Systematic Conservation Planning***.
+
+]
+
+---
+
+class: center, middle
+
+## Systematic Conservation Planning
+
+> Systematic Conservation Planning is a science-driven process of making conservation decisions in a manner that is efficient, repeatable, transparent and equitable.
+
+It applies the CARE principles of **C**onnectivity, **A**dequacy, **R**epresentativeness and **E**fficiency.
+
+---
+
+## Systematic Conservation Planning
+
+.pull-left[
+### Connectivity
+
+Connected systems of protected and conserved areas are necessary for species and natural processes to persist in the face of climate change.
+
+These include the flow of individuals, genes, matter (e.g. water or soils) or disturbances (e.g. disease, fire).
+
+Connectivity may be enhanced through better reserve design or the addition of habitat corridors and stepping stones.
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/connectivity.jpg")
+```
+
+A conceptual representation of an ecological network for conservation. From [Conservation Corridor](https://conservationcorridor.org/ccsg/what-we-do/projects-and-activities/guidelines/). Designed by Kendra Hoff, CLLC.
+
+]
+
+---
+
+## Systematic Conservation Planning
+
+.pull-left[
+### Adequacy
+
+The conservation area should contain enough of the ecosystem(s) and/or species to ensure they ***persist***. 
+
+This is typically based on minimum target amounts of ecosystems, species and their needs. 
+
+Ideally, this is based on our understanding of their ecology and/or quantitative analysis, e.g. 
+
+- How many individuals are needed to maintain a minimum viable population?
+- What is their range size and can they overlap?
+- How much of the ecosystem is required to maintain key processes (e.g. fire, hydrology, etc).
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '90%'}
+knitr::include_graphics("images/fragments_adam.jpg")
+```
+
+.footnote[A fragmented landscape in the CFR. Achieving minimum targets may be impossible. We often have to make do with whatever we can conserve and hope it is enough! Photo: Adam Wilson.]
+
+]
+
+---
+
+## Systematic Conservation Planning
+
+.pull-left[
+### Representativeness
+
+Protected areas should represent the full variety of biodiversity at all levels of organization.
+
+Often measured by the number of biodiversity features (species, ecosystems, etc) present in the protected area (or network), or (when considering adequacy) that meet their required targets.
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/fynbos_critters.jpg")
+```
+
+All macroscopic organisms found in one cubic foot of fynbos at Silvermine. Photos: David Liittschwager, National Geographic.
+
+]
+
+---
+
+## Systematic Conservation Planning
+
+.pull-left[
+### Efficiency
+
+The area of land and funding available for conservation are limited, hence there is a need to find the most efficient solutions to conserve the most biodiversity.
+
+There is also recognition that we need to balance conservation against and minimise competition with other human needs - agriculture, housing, etc.
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/Biodiversity_priority_areas_SA_2011.png")
+```
+
+.footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
 
 ]
 
