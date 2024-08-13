@@ -234,7 +234,9 @@ Habitat loss occurs because we need space to live, grow food, etc....
 layout: false
 
 .pull-left[
-## Some areas are more diverse than others...
+### Where to protect? 
+
+#### Some areas are more diverse than others...
 
 The number of species increases with area, but the species-area relationship varies depending on the **area** being sampled... 
 
@@ -450,7 +452,7 @@ Ideally, this is based on our understanding of their ecology and/or quantitative
 
 - How many individuals are needed to maintain a minimum viable population?
 - What is their range size and can they overlap?
-- How much of the ecosystem is required to maintain key processes (e.g. fire, hydrology, etc).
+- How much of the ecosystem is required to maintain key processes (e.g. fire, hydrology, etc)?
 
 ]
 
