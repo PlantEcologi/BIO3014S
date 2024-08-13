@@ -67,7 +67,7 @@ class: center, middle
 
 ## WARNING!!!
 
-This lecture is a bit of a mash-up of different topics. My aim is to give you some idea of species and ecosystem threat assessments and some idea of how they are applied in South Africa to give you local context. Be aware that I am glossing over a lot of important detail to squeeze it into one lecture. Note that it is also a crude (and partial!) summary by someone who has not been central to this endeavor, so there are things I have missed and potentially even misrepresented...
+This lecture is a bit of a mash-up of different topics. My aim is to give you some idea of species and ecosystem threat assessments and some idea of how they are applied globally and in South Africa, to give you local context. Be aware that I am glossing over a lot of important detail to squeeze it into one lecture. There are things I have missed and potentially even misrepresented in order to simplify...
 
 ---
 
@@ -141,7 +141,9 @@ class: center
 
 .center[**Trees/forests for carbon and "climate restoration"? But at what cost for biodiversity and other resources?**]
 
-<iframe src="https://crowtherlab.com/maps/#/" height="90%" width="90%" frameborder="0"></iframe>
+<iframe src="https://bastinjf-climate.users.earthengine.app/view/potential-tree-cover" height="75%" width="75%" frameborder="0"></iframe>
+
+.footnote[[_The global tree restoration potential_ (Bastin et al. 2019)](https://doi.org/10.1126/science.aax0848)]
 
 ---
 
