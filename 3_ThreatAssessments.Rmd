@@ -120,7 +120,7 @@ layout: false
 
 <br>
 
-### There are many facets of biodiversity we could measure!
+### There are many facets of biodiversity!
 
 <br>
 
@@ -340,7 +340,7 @@ class: center
 knitr::include_graphics("images/gbif_records.png")
 ```
 
-.footnote[Localities from the [Global Biodiversity Information Facility](https://gbif.org)]
+.footnote[Species localities from the [Global Biodiversity Information Facility](https://gbif.org)]
 
 ---
 

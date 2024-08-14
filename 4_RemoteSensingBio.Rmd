@@ -6,7 +6,7 @@ author:
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
+    css: ["xaringan-themer.css", "custom styles.css"]
     nature:
       slideNumberFormat: "%current% / %total%"
       highlightStyle: github
@@ -223,7 +223,6 @@ knitr::include_graphics("images/pettorelli2018_sensors.png")
 ]
 
 
-
 ---
 
 background-image: url("images/nasa_ems.jpeg")
@@ -232,14 +231,20 @@ background-size: contain
 text-color: white
 
 .left-column[
-## The Electromagnetic Spectrum
+## .my-style-white[The Electromagnetic Spectrum]
 ]
 
 ---
 
 class: center, middle
 
-### Remote sensing is particularly useful in combo with other observations
+> ### WARNING!!! Remote sensing can only measure energy in a variety of ways. It is up to us to interpret what these signals mean for various forms of biodiversity on the Earth's surface...
+
+---
+
+class: center, middle
+
+### Remote sensing of biodiversity requires field observations and expert knowledge to help us make sense of the data
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/turner2014.jpeg")
