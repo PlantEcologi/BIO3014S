@@ -340,7 +340,7 @@ class: center
 knitr::include_graphics("images/gbif_records.png")
 ```
 
-.footnote[Species localities from the [Global Biodiversity Information Facility](https://gbif.org)]
+.footnote[Species records in the [Global Biodiversity Information Facility](https://gbif.org)]
 
 ---
 
@@ -415,7 +415,7 @@ Based on similar criteria to the Red List of Species
 knitr::include_graphics("images/rle_criteria.png")
 ```
 
-.footnote[[Bland et al. 2017](https://doi.org/10.2305/IUCN.CH.2016.RLE.3.en)]
+.footnote[[Bland et al. 2017](https://doi.org/10.2305/IUCN.CH.2016.RLE.3.en), [Keith et al. 2024](https://doi.org/10.2305/cjdf9122)]
 ]
 
 ---
