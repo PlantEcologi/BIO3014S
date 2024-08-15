@@ -82,7 +82,7 @@ library(kableExtra)
 
 ## My take?
 
-We'll never be able to automate conservation planning (and actions), but we certainly can do better to automate (or at east semi-automate) data collection, processing (including modelling) and dissemination to decision makers.
+We'll never be able to automate conservation planning (and actions), because humans are involved and our priorities change. We can do better to automate data collection, processing and dissemination to decision makers.
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/mee_ecoforecast_figure1.png")
@@ -233,6 +233,16 @@ text-color: white
 .left-column[
 ## .my-style-white[The Electromagnetic Spectrum]
 ]
+
+---
+
+layout: false
+
+## Multispectral vs hyperspectral (imaging spectrometers)
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/multi vs hyper.png")
+```
 
 ---
 
@@ -424,16 +434,6 @@ knitr::include_graphics("images/traitmapping.png")
 ```
 
 .footnote[Leaf traits across 20 [NEON](https://www.neonscience.org/field-sites) field sites.]
-
----
-
-layout: false
-
-## Multispectral vs hyperspectral (imaging spectrometers)
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/multi vs hyper.png")
-```
 
 ---
 
