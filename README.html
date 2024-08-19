@@ -379,29 +379,36 @@ Africa.</p>
 <p>The module includes 4 lectures, a practical and a discussion of a
 journal article.</p>
 </div>
-<div id="lectures-21-25-august-2023" class="section level3">
-<h3>Lectures (21-25 August 2023):</h3>
+<div id="lectures-12-16-august-2024" class="section level3">
+<h3>Lectures (12-16 August 2024):</h3>
+<p><em>Note:</em> These are currently last year’s lectures and they will
+be updated the day before the lecture.</p>
 <ol style="list-style-type: decimal">
 <li><a href="1_SpaceConservation1">Space and Conservation</a></li>
 <li><a href="2_AreaBasedConservation">Area-Based Conservation</a></li>
-<li>Threat Assessment</li>
-<li>Remote sensing of Biodiversity</li>
+<li><a href="3_ThreatAssessments">Threat Assessment</a></li>
+<li><a href="4_RemoteSensingBio">Remote sensing of Biodiversity</a></li>
 <li>Discussion of <a href="https://doi.org/10.1016/j.oneear.2023.01.012">Gurney et
-al. 2023</a>. Please answer the questions in the Google Form prior to
-the discussion. These answers and participation in the discussion cound
-30% of your mark for this module.</li>
+al. 2023</a>. Please answer the questions in the <a href="https://forms.gle/PtAA4HzWHoLKG1R37">Google Form</a> prior to the
+discussion. These answers and participation in the discussion count 20%
+of your mark for this module.</li>
 </ol>
 </div>
-<div id="practical-mapping-biodiversity" class="section level2">
-<h2>Practical: Mapping biodiversity</h2>
+<div id="practical-19th-august-mapping-biodiversity" class="section level2">
+<h2>Practical (19th August): Mapping biodiversity</h2>
 <p>We’ll be using <a href="https://remap-app.org/"><strong><em>remap</em></strong></a> to
 play with mapping ecosystems using satellite remote sensing.</p>
+<p>Ecosystems are one level in the hierarchy of biodiversity
+<em>sensu</em> <a href="https://doi.org/10.1111/j.1523-1739.1990.tb00309.x">Noss 1990</a>,
+and is one of the foci for area-based conservation (versus a species
+focus). The exercise is aimed at giving you a soft introduction to
+mapping with satellite remote sensing and greater insight into many of
+the challenges faced and assumptions or pragmatic decisions required
+when mapping and monitoring ecosystems.</p>
 <p>Remap is an online mapping platform for people with little technical
 background in remote sensing. It enables you to quickly map and report
 the status of ecosystems, contributing to the IUCN Red List of
-Ecosystems. The exercise is aimed at giving you greater insight into
-many of the challenges faced and assumptions or pragmatic decisions
-required when mapping and monitoring ecosystems.</p>
+Ecosystems.</p>
 <p>Read through the steps below and assignment instructions before
 getting started.</p>
 <div id="steps" class="section level3">
@@ -409,23 +416,36 @@ getting started.</p>
 <ol style="list-style-type: decimal">
 <li>Open <a href="https://remap-app.org/"><strong><em>remap</em></strong></a></li>
 <li>Go to “tutorials”, open and read through PDF Tutorials 1 and 2</li>
-<li>Select an area you know reasonably well (e.g. the Cape Peninsula)
-about the size of the Cape Peninsula</li>
+<li>Select an area you know reasonably well that is about the size of
+the Cape Peninsula (e.g. the Cape Peninsula)</li>
 <li>Follow the instructions from tutorial 1, but for your area and time
-set to “present”</li>
+set to “present” (this is important - see step 8)</li>
 </ol>
 <ul>
 <li>We will have a discussion around how best to collect your training
-data</li>
+data.
+<ul>
+<li>A key point of departure here is whether you choose your locations
+based on what you see in the high resolution imagery, versus known
+locations of a focal species of interest (e.g. using localities from
+www.iNaturalist.org or similar).</li>
+<li>Other issues are that you need to select classes that cover the
+dominant variation in the image (e.g. even if you are not interested in
+water or built up areas, you should have these as classes to help the
+algorithm make sense of the imagery).</li>
+<li>Note that you need a minimum of 20 observations per class. If the
+algorithm fails with an error, it usually means you need more
+observations or an additional class (see previous point).</li>
+</ul></li>
 </ul>
 <ol start="5" style="list-style-type: decimal">
 <li>Colour your classes something sensible</li>
 </ol>
 <ul>
-<li>take a screen shot of your classified map (for submission with your
-prac).</li>
-<li>click “Results” and take a screen shot (for submission with your
-prac)</li>
+<li>take a screen shot of your classified map (“Map 1” - for submission
+with your prac).</li>
+<li>click “Results” and take a screen shot (“Results 1” - for submission
+with your prac)</li>
 <li>set your classification to semi-transparent, pan around and see how
 well your classifier has done</li>
 </ul>
@@ -434,20 +454,26 @@ well your classifier has done</li>
 noticed by</li>
 </ol>
 <ul>
-<li>altering or adding to your training data (e.g. using a
-species-oriented approach)</li>
+<li>altering or adding to your training data e.g. 
+<ul>
+<li>adding more observations per class</li>
+<li>adding new classes (or merging similar classes)</li>
+<li>using a species-oriented approach</li>
+</ul></li>
 <li>adding or dropping predictors</li>
 </ul>
 <ol start="7" style="list-style-type: decimal">
 <li>Rerun your classification with your altered training data and repeat
-the screen shots in step 5 (you can redo this step a few times until you
-feel you have a reasonable classification)</li>
+the screen shots in step 5 (“Map 2” and “Results 2” - you can redo this
+step a few times until you feel you have a reasonable classification,
+but you only need submit your final map and results)</li>
 <li>Now switch the time setting to “past”.</li>
 </ol>
 <ul>
-<li>check that your training data points have not changed
-(e.g. human-altered land cover)</li>
-<li>classify and take screen shots</li>
+<li>check that your training data points have not changed (e.g. many
+have have been transformed to human-altered land cover, or sand if it is
+an active dune landscape, etc)</li>
+<li>classify and take screen shots (“Map 3” and “Results 3”)</li>
 <li>compare present and past classifications with slider as per tutorial
 2</li>
 </ul>
@@ -457,28 +483,35 @@ feel you have a reasonable classification)</li>
 </div>
 <div id="assignment" class="section level3">
 <h3>Assignment</h3>
-<p>Please answer the questions below. Where possible, contextualise your
-answers by highlighting how they relate to the approach we adopted in
-this practical and/or illustrate them with examples from your analyses -
+<p>Please answer the questions below. Contextualise your answers by
+highlighting how they relate to the approach we adopted in this
+practical and illustrate them with examples from your analyses -
 e.g. where your classifier did well or badly or changed with different
-settings or training data (provide figures with captions where
-relevant).</p>
+settings or training data (and embed your maps and results with captions
+where relevant - <em><strong>6 marks</strong></em>).</p>
 <ol style="list-style-type: decimal">
 <li>What assumptions are required when using satellite remote sensing
-(SRS) to map ecosystems?</li>
+(SRS) to map ecosystems? (<em><strong>4 marks</strong></em>)</li>
 <li>What are the potential drivers of uncertainty when using SRS to
-develop an ecosystem type classification?</li>
+develop an ecosystem type classification? (<em><strong>4
+marks</strong></em>)</li>
 <li>What are the pros and cons of selecting your training data based on
-vegetation physiognomy versus the occurrence of focal species?</li>
+vegetation physiognomy (e.g. forest, shrubland, grassland, etc) versus
+the occurrence of focal species? (<em><strong>4
+marks</strong></em>)</li>
 <li>What are the implications of the issues raised above for how and
-what we conserve?</li>
+what we conserve? (<em><strong>4 marks</strong></em>)</li>
 </ol>
-<p>Each question is worth 5 marks and shouldn’t be more than half a
-page. An additional 4 marks will be awarded for providing appropriately
-cited and relevant references (and reference list). This brings the
-total mark allocation to <strong>24 marks</strong>.</p>
-<p>Please provide your write-up as a <strong><em>PDF</em></strong>.
-Please also submit your JSON file labelled with your name.</p>
+<p>Each question is worth 4 marks and shouldn’t be more than half a
+page. 6 marks are allocated for providing your figures and results with
+captions. An additional 2 marks will be awarded for providing
+appropriately cited and relevant references (and reference list). This
+brings the total mark allocation to <strong>24 marks</strong>. 6 marks
+come from your answers to the questions on the reading, resulting in 30
+marks for the module.</p>
+<p>Please provide your write-up as a <strong><em>PDF</em></strong> by
+the <strong>26th August</strong>. Please also submit your JSON file
+labelled with your name.</p>
 </div>
 </div>
 </div>
