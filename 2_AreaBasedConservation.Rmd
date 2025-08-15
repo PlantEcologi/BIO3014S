@@ -6,6 +6,7 @@ author:
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
+    self_contained: true
     css: xaringan-themer.css
     nature:
       slideNumberFormat: "%current% / %total%"
@@ -410,7 +411,7 @@ class: center, middle
 
 > Systematic Conservation Planning is a science-driven process of making conservation decisions in a manner that is efficient, repeatable, transparent and equitable.
 
-It applies the CARE principles of **C**onnectivity, **A**dequacy, **R**epresentativeness and **E**fficiency.
+It typically applies the CARE principles of **C**onnectivity, **A**dequacy, **R**epresentativeness and **E**fficiency, but often considers others too.
 
 ---
 
@@ -508,6 +509,29 @@ knitr::include_graphics("images/Biodiversity_priority_areas_SA_2011.png")
 ```
 
 .footnote[[Driver et al. 2011](http://hdl.handle.net/20.500.12143/5795)]
+
+]
+
+---
+
+## Systematic Conservation Planning
+
+.pull-left[
+### Other considerations
+
+There are many other factors which can and should be considered. Most of these are ecological principles, but another key one is just ***Reality*** - protected areas require sufficient funding, political will, defensibility, and local buy-in to support biodiversity over the long term.
+
+Often the establishment of protected areas is driven by key individuals, organisations or lobby groups, but its sustainability depends on many other factors...
+
+.footnote[[Wilson and Primack 2019](https://books.openbookpublishers.com/10.11647/obp.0177/ch13.xhtml#_idTextAnchor552)]
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+knitr::include_graphics("images/WilsonPrimackFig_13.5.png")
+```
 
 ]
 

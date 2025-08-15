@@ -6,6 +6,7 @@ author:
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
+    self_contained: true
     css: ["xaringan-themer.css", "custom styles.css"]
     nature:
       slideNumberFormat: "%current% / %total%"
@@ -241,7 +242,7 @@ layout: false
 ## Multispectral vs hyperspectral (imaging spectrometers)
 
 ```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/multi vs hyper.png")
+knitr::include_graphics("images/multi_vs_hyper.png")
 ```
 
 ---

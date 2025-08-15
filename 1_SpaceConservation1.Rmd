@@ -6,6 +6,7 @@ author:
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
+    self_contained: true
     css: xaringan-themer.css
     nature:
       slideNumberFormat: "%current% / %total%"
@@ -118,7 +119,7 @@ dominant threats to species from the [Red List of South African Plants](http://r
 ---
 class: center
 
-### Expanding protected areas has been the primary approach to stemming biodiversity loss and attempting to "bend the curve"
+### Area-based conservation has been the primary approach to stemming biodiversity loss and attempting to "bend the curve"
 
 ```{r echo = F, fig.align = 'centre', out.width = '65%'}
 knitr::include_graphics("images/bendingthecurve.jpg")
