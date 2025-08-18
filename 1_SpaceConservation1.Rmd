@@ -74,6 +74,10 @@ text-color: white
 knitr::include_graphics("images/blue_marble.jpg")
 ```
 
+???
+
+Can anyone tell me what this picture is?
+
 ---
 
 background-color: black
@@ -81,6 +85,12 @@ background-image: url("images/earthrise.png")
 background-size: contain
 
 text-color: white
+
+???
+
+And this one?
+
+What would you call it?
 
 ---
 
@@ -101,7 +111,9 @@ knitr::include_graphics("images/blue_marble.jpg")
 
 These and other photographs taken by astronauts and early satellites in the late 1960s and early 1970s were among the first _earth observations_ from space.
 
-By highlighting Earth as a single vulnerable, interconnected system in the darkness of space with limited resources and no escape options they also sparked a new era in _environmental consciousness_ and the need to better understand and protect our environment.
+They helped establish a link between space and conservation almost immediately.
+
+By highlighting Earth as a single vulnerable, interconnected system in the darkness of space with limited resources and no escape options, these pictures sparked a new era in _environmental consciousness_ and the need to better understand and protect our environment.
 
 ]
 
@@ -116,6 +128,12 @@ knitr::include_graphics("images/redlistSA_threats.png")
 
 dominant threats to species from the [Red List of South African Plants](http://redlist.sanbi.org/stats.php)
 
+???
+
+The biggest threats to biodiversity to date have been directly linked to the conversion of or impact on habitats, and are typically explicit in space (i.e. area).
+
+Threats like climate change or atmospheric pollution are less specifically area-focused, in that their effects occur almost everywhere, but they are still impending crises and have not been the biggest drivers of biodiversity loss to date.
+
 ---
 class: center
 
@@ -127,6 +145,10 @@ knitr::include_graphics("images/bendingthecurve.jpg")
 
 from [IIASA via Phys.org](https://phys.org/news/2020-09-biodiversity-loss.html), based on [Leclere et al. 2020](https://doi.org/10.1038/s41586-020-2705-y)
 
+???
+
+Conservation areas have been key in stemming biodiversity loss, and will continue to be, even in the face of climate change.
+
 ---
 class: center
 
@@ -137,6 +159,10 @@ knitr::include_graphics("images/protected_areas_map.png")
 ```
 
 .footnote[from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
+
+???
+
+Large parts of the globe are protected for conservation.
 
 ---
 class: center
@@ -151,11 +177,15 @@ knitr::include_graphics("images/protected_areas.png")
 
 Data from [Protected Planet](https://livereport.protectedplanet.net/chapter-3) - reported in million km<sup>2<sup>.
 
+???
+
+And global conservation goals aim to increase that coverage.
+
 ---
 
 class: center
 
-## We have a new target of 30% protected by 2030...
+## We have a current target of 30% protected by 2030...
 
 ```{r echo = F, fig.align = 'centre', out.width = '70%'}
 knitr::include_graphics("images/kunming.png")
@@ -216,6 +246,10 @@ knitr::include_graphics("images/cramer_verboom_2017.jpg")
 
 ]
 
+???
+
+We need to map the biodiversity we aim to protect.
+
 ---
 
 layout: false
@@ -243,6 +277,10 @@ knitr::include_graphics("images/redlist_map.png")
 
 .footnote[[Red List of South African Plants](http://redlist.sanbi.org/stats.php)]
 ]
+
+???
+
+And assess where that biodiversity faces the greatest threat...
 
 ---
 
@@ -272,6 +310,10 @@ knitr::include_graphics("images/rle_SA_Skowno2021.webp")
 .footnote[[Skowno and Monyeki 2021](http://dx.doi.org/10.3390/land10101048)]
 ]
 
+???
+
+These maps are used to guide conservation action.
+
 ---
 
 layout: false
@@ -300,6 +342,10 @@ knitr::include_graphics("images/moncrieff2021b.png")
 .footnote[[Moncrieff 2021]() - _Global Overberg Ruens Renosterveld Watch_]
 ]
 
+???
+
+And remote sensing can provide valuable tools for monitoring and managing biodiversity in our priority and/or protected areas.
+
 ---
 
 class: middle
@@ -322,11 +368,20 @@ class: middle
 
 ## The rest of this module:
 
-### Tuesday: Area-Based Conservation
-### Wednesday: Threat assessments
-### Thursday: Remote Sensing of Biodiversity
-### Friday: Discussion of Gurney et al. 2023
-### Practical next Monday afternoon
+### This week
+
+- Practical this afternoon!
+- Tuesday: Area-Based Conservation
+- Wednesday: Threat assessments
+- Thursday: Remote Sensing of Biodiversity
+- Friday: Guest lecture by Dr Andrew Skowno (SANBI)
+
+### Next week
+
+- Monday: Discussion of Gurney et al. 2023
+- Tuesday: Guest lecture by Dr Ralph Watson, UCT
+- Wednesday: Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
+- Thursday & Friday [TBC]
 
 ---
 
@@ -392,14 +447,14 @@ knitr::include_graphics("images/remap_murray2019b.jpg")
 
 ### Assignment
 
-Where possible, contextualise your answers by highlighting how they relate to the approach we adopted in this practical and/or illustrate them (i.e. provide figures with captions) with examples from your analyses - e.g. where your classifier did well or badly or changed with different settings or training data. 
+Contextualise your answers by highlighting how they relate to the approach we adopted in this practical and/or illustrate them (i.e. provide figures with captions) with examples from your analyses - e.g. where your classifier did well or badly or changed with different settings or training data. 
 
 1. What assumptions are required when using satellite remote sensing (SRS) to map ecosystems?
 2. What are the potential drivers of uncertainty when using SRS to develop an ecosystem type classification?
 3. What are the pros and cons of selecting your training data based on vegetation physiognomy versus the occurrence of focal species?
 4. What are the implications of the issues raised above for how and what we conserve?
 
-Each question is worth 5 marks and shouldn't be more than half a page. An additional 5 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **25 marks**.
+Each question is worth 4 marks and shouldn't be more than half a page (don't forget to illustrate your answers based on your results!!!). 6 marks are allocated for providing your figures and results with appropriate captions etc. An additional 2 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **24 marks**. 6 marks come from your answers to the questions on the reading, resulting in 30 marks for the module.
 
 Please provide your write-up as a ***PDF***. Please also submit your JSON file labelled with your name.
 

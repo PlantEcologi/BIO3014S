@@ -27,11 +27,12 @@ _Note:_ These are currently last year's lectures and will be updated as we go.
 3. [Threat Assessment](3_ThreatAssessments)
 4. [Remote sensing of Biodiversity](4_RemoteSensingBio)
 5. Guest lecture by Dr Andrew Skowno, South African National Biodiversity Institute (SANBI)
-6. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
+6. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
+    - Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
 7. Mapping Marine Ecosystems - Guest lecture by Dr Ralph Watson, UCT
-8. Using spatial data to increase the impact of conservation action at the Nature Conservanc - Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
+8. Using spatial data to increase the impact of conservation action at the Nature Conservancy - Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
 9. [TBC]
-10. Revision discussion
+10. [TBC]
 
 ## Practical (18th August): Mapping biodiversity
 
