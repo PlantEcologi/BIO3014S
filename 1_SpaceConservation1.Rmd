@@ -434,7 +434,7 @@ knitr::include_graphics("images/remap_murray2019b.jpg")
  - click "Results" and take a screen shot (for submission with your prac)
  - set your classification to semi-transparent, pan around and see how well your classifier has done
 6. Consider ways to improve your classification and address issues you noticed by 
-  - altering or adding to your training data (e.g. using a species-oriented approach)
+  - altering or adding to your training data (e.g. using a species or imagery-oriented approach)
   - adding or dropping predictors
 7. Rerun your classification with your altered training data and repeat the screen shots in step 5 (you can redo this step a few times until you feel you have a reasonable classification)
 8. Now switch the time setting to "past". 

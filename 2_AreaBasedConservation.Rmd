@@ -296,11 +296,27 @@ Most schemes prioritise ***irreplaceability*** (e.g. species endemism) and consi
 
 ## Where or how much do we need to protect? 
 
-Most ***global*** conservation priorities link to specific NGOs or funders to guide where to invest their effort.
+Most ***global*** conservation priorities link to specific NGOs or funders to guide where to invest their effort...
 
-```{r echo = F, fig.align = 'center', out.width = '70%'}
+.left-column[
+...and focus on what they hope to preserve.
+
+EBA = birds (BirdLife)
+
+CPD = plants (IUCN)
+
+FF = forests (World Resources Institute)
+
+HBWA and LW = wilderness ([Wildlife Conservation Society](https://www.wcs.org/our-work/places))
+
+]
+
+.right-column[ 
+```{r echo = F, fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("images/brooks2006_cons_prior.png")
 ```
+]
+
 .footnote[Comparison of 9 approaches for global biodiversity conservation prioritization - [Brooks et al. 2006](http://dx.doi.org/10.1126/science.1127609)]
 
 ---
@@ -363,7 +379,7 @@ Historically, many conservation areas are focused on either a target **species**
 
 I'm not going to dwell on this, but it'll come up repeatedly. Ultimately both usually require protected areas. It's usually more about where they are located and how they are managed.
 
-  - e.g. Bontebok National Park used to be burnt very frequently and areas were even fertilized to encourage forage for the Bontebok, often to the detriment of the flora in the Park
+  - e.g. Bontebok National Park used to be burnt very frequently and areas were even fertilized to encourage forage for the Bontebok, often to the detriment of the flora and other species.
 
 ]
 
@@ -523,7 +539,7 @@ There are many other factors which can and should be considered. Most of these a
 
 Often the establishment of protected areas is driven by key individuals, organisations or lobby groups, but its sustainability depends on many other factors...
 
-.footnote[[Wilson and Primack 2019](https://books.openbookpublishers.com/10.11647/obp.0177/ch13.xhtml#_idTextAnchor552)]
+.footnote[Image from [Wilson and Primack 2019](https://books.openbookpublishers.com/10.11647/obp.0177/ch13.xhtml#_idTextAnchor552)]
 
 ]
 

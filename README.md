@@ -20,7 +20,7 @@ The module includes 8 lectures, a practical and a discussion of a journal articl
 
 ### Lectures (18-29 August 2025):
 
-_Note:_ These are currently last year's lectures and will be updated as we go.
+_Note:_ These are currently last year's lectures and will be updated as we go. They can be downloaded as .html files [here](https://github.com/PlantEcologi/BIO3014S/) by clicking on the file and then the download icon towards the top right corner.
 
 1. [Space and Conservation](1_SpaceConservation1)
 2. [Area-Based Conservation](2_AreaBasedConservation)
@@ -53,7 +53,7 @@ Read through the steps below and assignment instructions before getting started.
   - We will have a discussion around how best to collect your training data. 
       - A key point of departure here is whether you choose your locations based on what you see in the high resolution imagery, versus known locations of a focal species of interest (e.g. using localities from www.iNaturalist.org or similar).
       - Other issues are that you need to select classes that cover the dominant variation in the image (e.g. even if you are not interested in water or built up areas, you should have these as classes to help the algorithm make sense of the imagery).
-      - Note that you need a minimum of 20 observations per class. If the algorithm fails with an error, it usually means you need more observations or an additional class (see previous point).
+      - Note that you need a minimum of 20 (preferably 50) observations per class. If the algorithm fails with an error, it usually means you need more observations or an additional class (see previous point).
 5. Colour your classes something sensible 
  - take a screen shot of your classified map ("Map 1" - for submission with your prac).
  - click "Results" and take a screen shot ("Results 1" - for submission with your prac)
@@ -62,7 +62,7 @@ Read through the steps below and assignment instructions before getting started.
   - altering or adding to your training data e.g. 
       - adding more observations per class
       - adding new classes (or merging similar classes)
-      - using a species-oriented approach
+      - using an imagery vs species-oriented approach
   - adding or dropping predictors
 7. Rerun your classification with your altered training data and repeat the screen shots in step 5 ("Map 2" and "Results 2" - you can redo this step a few times until you feel you have a reasonable classification, but you only need submit your final map and results)
 8. Now switch the time setting to "past". 
