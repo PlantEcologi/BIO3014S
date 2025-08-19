@@ -278,8 +278,8 @@ class: center, middle
 
 ## The IUCN Red List of Threatened Species
 
-### >28% of all threatened plants are from Sub-Saharan Africa!!! 
-### (7195 of 25082)
+### >26% of all threatened plants are from Sub-Saharan Africa!!! 
+### (7669 of 28661 as of 19 August 2025)
 
 ---
 
@@ -325,7 +325,7 @@ This is a huge achievement, but...
 knitr::include_graphics("images/species_number_gaston_2010.png")
 ```
 
-There are an estimated 8 million species!!! Many yet to be described!
+There are an estimated 8 (ranging from 3.5 to 108!) million species!!! Most yet to be described!
 
 .footnote[[Gaston 2010](https://conbio.org/images/content_publications/ConservationBiologyforAll_reducedsize.pdf)]
 
@@ -484,7 +484,19 @@ knitr::include_graphics("images/rle_SA_Skowno2021.webp")
 
 class: center
 
-## We use these threat assessments in a range of ways
+## SA threatened ecosystems are protected by law
+
+```{r echo = F, fig.align = 'center', out.width = '75%'}
+knitr::include_graphics("images/sa_rle_gazette.png")
+```
+
+Threatened ecosystems are afforded (some) protection under law ([The National Environmental Management: Biodiversity Act (NEM:BA) 2004](https://cer.org.za/virtual-library/legislation/national/biodiversity-and-conservation/national-environmental-management-biodiversity-act-2004)), adding restrictions on land-use activities, requirements for environmental impact assessments (EIAs) for developments within or near these areas, and potential obligations for ecological restoration - _even outside protected areas_.
+
+---
+
+class: center
+
+## We use these threat assessments in other ways
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/sa_npaes.png")
@@ -494,39 +506,27 @@ e.g. as targets for our protected area expansion strategy ([NPAES 2018](https://
 
 ---
 
-class: center
-
-## We use these threat assessments in a range of ways
-
-```{r echo = F, fig.align = 'center', out.width = '80%'}
-knitr::include_graphics("images/sa_rle_gazette.png")
-```
-
-Threatened ecosystems are afforded (some) protection under law ([NEM:BA (Biodiversity Act) 2004](https://cer.org.za/virtual-library/legislation/national/biodiversity-and-conservation/national-environmental-management-biodiversity-act-2004))
-
----
-
 ## We also use other criteria not presented thus far...
 
 .pull-left[
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/wc_bsp2017_map.png")
+knitr::include_graphics("images/wc_bsp2023_map.png")
 ```
 
 ]
 
 .pull-right[
 
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/wc_bsp2017_categories.png")
+```{r echo = F, fig.align = 'center', out.width = '75%'}
+knitr::include_graphics("images/wc_bsp2023_categories.png")
 ```
 
 The _targets_ are things like percentage representation of all ecosystems
 
 ]
 
-.footnote[[Western Cape Biodiversity Spatial Plan 2017](https://www.capenature.co.za/uploads/files/protected-area-management-plans/SANBI_WCBSP-Handbook.pdf)]
+.footnote[Western Cape Biodiversity Spatial Plan [2017](https://www.capenature.co.za/uploads/files/protected-area-management-plans/SANBI_WCBSP-Handbook.pdf) and [2023](https://www.capenature.co.za/western-cape-biodiversity-spatial-plan)]
 
 ---
 
