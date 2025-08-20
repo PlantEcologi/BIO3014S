@@ -83,7 +83,7 @@ library(kableExtra)
 
 ## My take?
 
-We'll never be able to automate conservation planning (and actions), because humans are involved and our priorities change. We can do better to automate data collection, processing and dissemination to decision makers.
+We'll never be able to automate conservation planning and actions, because humans are involved and our priorities change, but we can do better to automate data collection, processing and sharing with decision makers.
 
 ```{r echo = F, fig.align = 'center', out.width = '60%'}
 knitr::include_graphics("images/mee_ecoforecast_figure1.png")
@@ -95,8 +95,13 @@ knitr::include_graphics("images/mee_ecoforecast_figure1.png")
 
 ## We're starting to do this...
 
-```{r echo = F, fig.align = 'center', out.width = '55%'}
-knitr::include_graphics("images/emma_prototype.png")
+```{r echo = F, fig.align = 'center', out.width = '70%'}
+```
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+#knitr::include_graphics("images/emma_prototype.png")
+knitr::include_app("https://emma.eco/", 
+  height = "400px")
 ```
 
 .left[.footnote[[www.emma.eco](https://www.emma.eco/)]]
