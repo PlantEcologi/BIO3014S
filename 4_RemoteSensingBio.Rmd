@@ -353,33 +353,9 @@ knitr::include_graphics("images/medecos1.png")
 
 ---
 
-class: center
-
-## Detecting subtle changes in ecological condition
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/medecos2.png")
-```
-
-.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
-
----
-
-class: center
-
-## Detecting subtle changes in ecological condition
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/medecos3.png")
-```
-
-.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
-
----
-
 class: center, middle
 
-## These tools give an indication of the status of ecosystems or of species' habitat,...
+## These tools give an indication of the status of ecosystems or of species' habitat...
 
 ###...but what about more direct measures of biodiversity like species, functional and phylogenetic diversity?
 
@@ -507,7 +483,7 @@ knitr::include_graphics("images/jonaskop_class.png")
 
 .right-column[
 
-Map species or cover types based on their reflectance of the electromagnetic spectrum!
+Map species or cover types based on their reflectance of the electromagnetic spectrum, even where they're smaller than the pixel!
 
 ```{r echo = F, fig.align = 'center', out.width = '40%'}
 knitr::include_graphics("images/jonaskop_spectral_library.png")
