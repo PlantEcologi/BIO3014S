@@ -26,7 +26,7 @@ _Note:_ These are currently last year's lectures and will be updated as we go. T
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. [Threat Assessment](3_ThreatAssessments)
 4. [Remote sensing of Biodiversity](4_RemoteSensingBio)
-5. Guest lecture by Dr Andrew Skowno, South African National Biodiversity Institute (SANBI)
+5. [Biodiversity assessment and planning – practice and policy](Skowno_NationaBiodiversityAssessment_UCT_20250822.pdf) - Guest lecture by Dr Andrew Skowno, South African National Biodiversity Institute (SANBI)
 6. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
     - Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
 7. Mapping Marine Ecosystems - Guest lecture by Dr Ralph Watson, UCT
