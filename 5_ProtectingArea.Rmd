@@ -66,49 +66,271 @@ library(kableExtra)
 
 class: center, middle
 
-Is putting a fence around it enough?
-
----
-
-## Protected area effectiveness
-
-Protected Areas (PAs) cover ~17% of land and ~8% of oceans ***BUT*** Climate change is reshaping ecosystems and undermining their effectiveness at protecting biodiversity...
-
----
-
- **Key Questions:**  
-  1. How does climate change affect PAs?
-  2. How can we manage these impacts?
-  3. Can PAs contribute to climate solutions?  
-  4. How should we rethink conservation in a changing climate?  
-
----
-
-## Learning Objectives
-
-By the end of this lecture, students should be able to:
-
-- Explain how climate change threatens biodiversity inside PAs.  
-- Assess the role of PAs in both adaptation and mitigation.  
-- Critically evaluate strategies for climate-smart conservation.  
+### Is putting a fence around it enough?
 
 ---
 
 ## The Assumptions of Protecting Area...
 
+.pull-left[
 - Setting land aside should:  
-  - Safeguard species and ecosystems.  
-  - Provide ecosystem services.  
+  - Safeguard species and ecosystems
+  - Provide ecosystem services
 
-- But this assumed:  
-  - Habitats and species ranges are stable.  
-  - Static boundaries suffice.  
+- But this assumes:  
+  - Habitats and species ranges are stable
+  - Static boundaries suffice  
+  - Pressures can be kept out
+  - Necessary processes are intact and do not rely on unprotected areas
+      - (e.g. fire, hydrology, migration)
+  - Protected areas are effectively managed...
+]  
+
+.pull-right[
+
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/Yellowstone1904.jpg")
+```
+
+.footnote[Yellowstone National Park by [Henry Wellge (1850-1917)](https://commons.wikimedia.org/w/index.php?curid=43155865)]
+
+]
 
 ---
 
-## The Problem
+class: center, middle
 
-IPCC diagram?
+## Protected area effectiveness?
+
+```{r echo = F, fig.align = 'centre', out.width = '55%'}
+knitr::include_graphics("images/protected_areas_map.png")
+```
+
+Protected Areas (PAs) cover ~17% of land and ~8% of oceans ***BUT*** climate change and other threats are reshaping ecosystems and undermining their effectiveness at protecting biodiversity...
+
+.footnote[Global protected areas from [Bingham et al. 2019](http://dx.doi.org/10.1038/s41559-019-0869-3)]
+
+
+---
+
+## Determinants of Protected Area Effectiveness
+
+.pull-left[
+The effectiveness of a protected area in achieving the desired conservation outcomes is influenced by two main factors:
+
+- **Protected Area Management Effectiveness (PAME)**: How well the PA is managed, including planning, enforcement, resource allocation, and community engagement.
+- **Change Drivers**: External pressures such as climate change, invasive species, pollution, altered ecosystem processes and land-use change that can impact the PA's ecosystems and biodiversity and the extent to which we can mitigate or adapt to them.
+
+Unfortunately, both are hugely challenging!
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'centre', fig.width = 4, fig.height = 3, out.width = '100%'}
+library(plotrix)
+
+old_par <- par(no.readonly = TRUE) # Store current par settings
+par(mar = c(0, 0, 0, 0))
+
+# Create a new plot
+plot(NA, xlim = c(0, 10), ylim = c(0, 10), 
+     xlab = "", ylab = "", axes = FALSE, main = "")
+
+# Draw the first circle
+draw.circle(x = 3, y = 5, radius = 2, border = "blue")
+text(x = 3, y = 5, labels = "Management\nEffectiveness")
+
+# Draw the second circle, overlapping the first
+draw.circle(x = 6, y = 5, radius = 2, border = "darkgreen")
+text(x = 6, y = 5, labels = "Change\nDrivers")
+
+par(old_par) # Restore original par settings
+```
+]
+
+---
+
+## Protected Area Management Effectiveness (PAME)
+
+.pull-left[
+
+There are a number of different PAME methodologies, but most are based on a similar framework and share common elements, e.g.:
+- Planning: Clear objectives, zoning, and management plans.
+- Resources: Adequate funding, staffing, and infrastructure.
+- Enforcement/implementation: Effective patrolling, law enforcement and other management activities.
+- Community Engagement: Involving local communities and stakeholders.
+- Monitoring and Evaluation: Regular assessment of management effectiveness and ecological outcomes.
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'centre', out.width = '80%'}
+knitr::include_graphics("images/hockings2006.png")
+```
+
+.footnote[Framework for assessing management effectiveness of protected areas ([Hockings et al. 2006](https://portals.iucn.org/library/efiles/documents/PAG-014.pdf)).]
+]
+
+---
+
+## Protected Area Management Effectiveness (PAME)
+
+
+> "_According to the global database on PAME, in 2020 only 18.29% of the area covered by protected areas has been evaluated._" - [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012)
+
+--
+
+.pull-left[
+South Africa employs an adapted version of the the Management Effectiveness Tracking Tool (METT), called METT-SA
+
+[Cowan et al. 2010](https://www.dffe.gov.za/sites/default/files/reports/research/biodiversity/management_effectiveness_saprotected_areas.pdf) assessed 230 (±78%) of SA's PAs"
+
+>"_Total scores ranged from 10% to 86%, with a total mean of 49%_ 
+
+> - _108 (47%) scores were below the mean,_
+> - _121 (53%) above the mean and_ 
+> - _only 31 (14%) above the 67% level for sound management._"
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/cowan2010_F2.png")
+```
+
+.footnote[[Cowan et al. 2010](https://www.dffe.gov.za/sites/default/files/reports/research/biodiversity/management_effectiveness_saprotected_areas.pdf)]
+
+]
+
+---
+
+## Protected Area Management Effectiveness (PAME)
+
+.pull-left[
+
+Very few indicators scored above 50% on average, let alone the 67% level for sound management...
+
+<br>
+
+South Africa is among the better countries for assessing PAME globally, but there is still much room for improvement!
+
+.footnote[[Cowan et al. 2010](https://www.dffe.gov.za/sites/default/files/reports/research/biodiversity/management_effectiveness_saprotected_areas.pdf)]
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'centre', out.width = '90%'}
+knitr::include_graphics("images/cowan2010_F4.png")
+```
+
+]
+
+---
+
+.pull-left[
+
+```{r echo = F, fig.align = 'centre', out.width = '90%'}
+knitr::include_graphics("images/franklin2016_crop.jpg")
+```
+
+]
+
+.pull-right[
+
+## Change Drivers?
+
+Protected areas are subject to all the usual suspects...
+
+Some of these they are aimed at combating (e.g. habitat loss), while others may not have been anticipated when the PA was established (e.g. climate change, invasive species).
+
+Some can be managed, given sufficient resources (e.g. invasive species), while others are largely out of the control of PA managers (e.g. climate change).
+
+.footnote[[Franklin et al. 2016](https://doi.org/10.1073/pnas.1519911113)]
+]
+
+---
+
+.pull-left[
+
+```{r echo = F, fig.align = 'centre', out.width = '90%'}
+knitr::include_graphics("images/franklin2016_crop.jpg")
+```
+
+]
+
+.pull-right[
+
+## Change Drivers?
+
+Protected areas are subject to all the usual suspects...
+
+Some of these they are aimed at combating (e.g. habitat loss), while others may not have been anticipated when the PA was established (e.g. climate change, invasive species).
+
+Some can be managed, given sufficient resources (e.g. invasive species), while others are largely out of the control of PA managers (e.g. climate change).
+
+Unfortunately,...
+
+- many are intensifying, and most interact...
+- we don't fully understand how they'll affect biodiversity, or how best to manage their impacts...
+
+.footnote[[Franklin et al. 2016](https://doi.org/10.1073/pnas.1519911113)]
+]
+
+
+---
+
+## Climate change anomalies in South Africa's PAs
+
+.pull-left[
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/vanwilgen2015_F2.jpg")
+```
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/vanwilgen2015_F1.jpg")
+```
+]
+
+.footnote[All National Parks ([van Wilgen et al. 2015](http://dx.doi.org/10.1002/joc.4377))]
+
+---
+
+## Climate change impacts in South Africa's PAs
+
+.pull-left[
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/slingsby2017_chd.png")
+```
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'centre', out.width = '100%'}
+knitr::include_graphics("images/slingsby_capepoint.png")
+```
+
+More extreme weather in the first summer after fires cause local species loss.
+
+]
+
+.footnote[Cape of Good Hope ([Slingsby et al. 2017](https://doi.org/10.1073/pnas.1619014114))]
+
+---
+
+## But Climate Change is more than change in time...
+
+.pull-left[
+We're used to seeing climate records and climate change projections as time-series, but climate also varies in space and climate change plays out over space...
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'centre', out.width = '100%', fig.cap = "IPCC AR6 illustrative mitigation pathways (IMPs)."}
+knitr::include_graphics("images/IPCC-SRL-image-4.png")
+```
+
+]
+
 
 ---
 
@@ -123,6 +345,35 @@ IPCC diagram?
 knitr::include_graphics("images/loarie1.webp")
 ```
 ]
+
+---
+
+## Multiple Dimensions of Climate Change...
+
+Garcia paper
+
+---
+
+
+## Key Questions:
+
+  1. How do global change drivers like climate change affect PAs?
+  2. How can we manage these impacts?
+  3. Can PAs contribute to climate solutions?  
+  4. How should we rethink conservation under global change?  
+
+---
+
+## Learning Objectives
+
+By the end of this lecture, students should be able to:
+
+- Explain how climate change threatens biodiversity inside PAs.  
+- Assess the role of PAs in both climate change adaptation and mitigation.  
+- Critically evaluate strategies for climate-smart conservation.  
+
+
+
 
 ---
 
