@@ -560,6 +560,7 @@ knitr::include_graphics("images/cano2025.webp")
 
 ### Seed banks
   - [Millennium Seed Bank Partnership](https://www.kew.org/wakehurst/whats-at-wakehurst/millennium-seed-bank)
+  - [Svalbard Global Seed Vault](https://seedvaultvirtualtour.com/)
 
 <br>
 
@@ -603,14 +604,13 @@ class: middle
 
 ## Take-home
 
->
+
 > - PA effectiveness depends on both management and external pressures.
 - Global change drivers like climate change undermine the static PA model.  
 - Climate-smart approaches require connectivity, adaptation, and integration.
 - Unfortunately, there is much we have yet to learn...
     - But we're improving our tools for monitoring and learning (and thus managing PAs)
 - PA can contribute to climate mitigation via carbon storage.
->
 
 ---
 class: center, middle
