@@ -118,7 +118,7 @@ Protected Areas (PAs) cover ~17% of land and ~8% of oceans ***BUT*** climate cha
 .pull-left[
 The effectiveness of a protected area in achieving the desired conservation outcomes is influenced by two main factors:
 
-- **Protected Area Management Effectiveness (PAME)**: How well the PA is managed, including planning, enforcement, resource allocation, and community engagement.
+- **Protected Area Management Effectiveness (PAME)**: How well the PA is managed, including planning, enforcement, resource allocation, community engagement, etc.
 - **Change Drivers**: External pressures such as climate change, invasive species, pollution, altered ecosystem processes and land-use change that can impact the PA's ecosystems and biodiversity and the extent to which we can mitigate or adapt to them.
 
 Unfortunately, both are hugely challenging!
@@ -154,11 +154,11 @@ par(old_par) # Restore original par settings
 .pull-left[
 
 There are a number of different PAME methodologies, but most are based on a similar framework and share common elements, e.g.:
-- Planning: Clear objectives, zoning, and management plans.
-- Resources: Adequate funding, staffing, and infrastructure.
-- Enforcement/implementation: Effective patrolling, law enforcement and other management activities.
-- Community Engagement: Involving local communities and stakeholders.
-- Monitoring and Evaluation: Regular assessment of management effectiveness and ecological outcomes.
+- Planning: Clear objectives, zoning, management plans, etc
+- Resources: Adequate funding, staffing, infrastructure
+- Enforcement/implementation: Effective patrolling, law enforcement and other management activities
+- Community Engagement: Involving local communities and stakeholders
+- Monitoring and Evaluation: Regular assessment of management effectiveness and ecological outcomes
 
 ]
 
@@ -180,9 +180,9 @@ knitr::include_graphics("images/hockings2006.png")
 --
 
 .pull-left[
-South Africa employs an adapted version of the the Management Effectiveness Tracking Tool (METT), called METT-SA
+South Africa employs an adapted version of the the Management Effectiveness Tracking Tool (METT), called METT-SA.
 
-[Cowan et al. 2010](https://www.dffe.gov.za/sites/default/files/reports/research/biodiversity/management_effectiveness_saprotected_areas.pdf) assessed 230 (±78%) of SA's PAs"
+[Cowan et al. 2010](https://www.dffe.gov.za/sites/default/files/reports/research/biodiversity/management_effectiveness_saprotected_areas.pdf) assessed 230 (±78%) of SA's PA:
 
 >"_Total scores ranged from 10% to 86%, with a total mean of 49%_ 
 
@@ -293,7 +293,7 @@ knitr::include_graphics("images/vanwilgen2015_F1.jpg")
 ```
 ]
 
-.footnote[All National Parks ([van Wilgen et al. 2015](http://dx.doi.org/10.1002/joc.4377))]
+.footnote[Significant change in our National Parks ([van Wilgen et al. 2015](http://dx.doi.org/10.1002/joc.4377))]
 
 ---
 
@@ -310,18 +310,57 @@ knitr::include_graphics("images/slingsby2017_chd.png")
 knitr::include_graphics("images/slingsby_capepoint.png")
 ```
 
-More extreme weather in the first summer after fires cause local species loss.
+Weather extremes in the first summer after fires are causing local species loss.
 
 ]
 
-.footnote[Cape of Good Hope ([Slingsby et al. 2017](https://doi.org/10.1073/pnas.1619014114))]
+.footnote[Cape of Good Hope, TMNP ([Slingsby et al. 2017](https://doi.org/10.1073/pnas.1619014114))]
+
+---
+
+class: center
+
+## Climate change impacts in South Africa's PAs?
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos1.png")
+```
+
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - Detecting changes in ecosystem structure and function from remote sensing data.]
+]
+
+---
+
+class: center
+
+## Climate change impacts in South Africa's PAs?
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos2.png")
+```
+
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - - Detecting changes in ecosystem structure and function from remote sensing data.]
+]
+
+---
+
+class: center
+
+## Climate change impacts in South Africa's PAs?
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/medecos3.png")
+```
+
+.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - - Detecting changes in ecosystem structure and function from remote sensing data.]
+]
 
 ---
 
 ## But Climate Change is more than change in time...
 
 .pull-left[
-We're used to seeing climate records and climate change projections as time-series, but climate also varies in space and climate change plays out over space...
+We're used to seeing climate records and climate change projections as time-series, but climate also varies in space...
 ]
 
 .pull-right[
@@ -331,12 +370,23 @@ knitr::include_graphics("images/IPCC-SRL-image-4.png")
 
 ]
 
-
 ---
 
 .pull-left[
 
 ## Climate Change Velocity
+
+The combination of climate varying in space and changing over time means that average climate conditions are shifting in space over time. 
+
+Species and ecosystems may need to move to track their climate niche...
+
+The rate at which climate conditions are shifting in space is called **climate velocity**.
+
+Climate velocities are not uniform across the landscape, and can be very high in flat areas with shallow climate gradients (e.g. tundra, oceans) and low in mountainous areas with steep climate gradients.
+
+]
+
+.footnote[[Loarie et al. 2009](https://doi.org/10.1038/nature08649)
 
 ]
 
@@ -350,124 +400,179 @@ knitr::include_graphics("images/loarie1.webp")
 
 ## Multiple Dimensions of Climate Change...
 
-Garcia paper
+.pull-left[
 
----
+The different local and regional dimensions of climate change have different implications for species and ecosystems and their conservation.
 
+Local dimensions relate to what species/ecosystems have to cope with in situ (e.g. warming, drying, extremes)
 
-## Key Questions:
+Regional dimensions relate to how far species/ecosystems may need to move to track their climate niche (e.g. climate velocity, direction, distance to suitable climate and barriers to movement).
 
-  1. How do global change drivers like climate change affect PAs?
-  2. How can we manage these impacts?
-  3. Can PAs contribute to climate solutions?  
-  4. How should we rethink conservation under global change?  
-
----
-
-## Learning Objectives
-
-By the end of this lecture, students should be able to:
-
-- Explain how climate change threatens biodiversity inside PAs.  
-- Assess the role of PAs in both climate change adaptation and mitigation.  
-- Critically evaluate strategies for climate-smart conservation.  
-
-
-
-
----
-
-## Climate Change Impacts on PAs
-
-**Direct impacts:**
-- Species loss, or range shifts towards cooler areas.  
-- Phenological mismatches (e.g. flowers and pollinators).  
-- Habitat loss (corals, alpine, Arctic).  
-
-**Indirect impacts:**
-- Invasive species.  
-- Disturbance regimes (fire, storms, pests).  
-- Hydrological change.  
-
----
-
-## Direct impacts
-
-- Rachel Garcia paper
-
----
-
-## Direct impacts
-
-- Higgins 1999 invasives paper
-
----
-
-
-## Case Study: Kruger National Park
-
-- Altered rainfall and fire regimes.  
-- Shifts in vegetation and herbivore dynamics.  
-- Management challenge: balancing biodiversity, tourism, and resilience.  
-
----
-
-class: center
-
-## Detecting climate impacts?
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/medecos1.png")
-```
-
-.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
-
----
-
-class: center
-
-## Detecting climate impacts?
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/medecos2.png")
-```
-
-.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
-
----
-
-class: center
-
-## Detecting climate impacts?
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/medecos3.png")
-```
-
-.left[.footnote[[Slingsby et al. 2021](http://dx.doi.org/10.1016/j.isprsjprs.2020.05.017) and _in prep_. - _Requires a model for how the local ecosystem should behave!_]]
-
----
-
-.left-column[
-## Assessing Park-level Climate Vulnerability?
 ]
 
-.right-column[
-```{r echo = F, fig.align = 'center', out.width = '100%', fig.cap = "There's more to the picture than just the impacts..."}
-knitr::include_graphics("images/coldrey2022.jpg")
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/garcia2014_abstract.png")
 ```
+
+.footnote[[Garcia et al. 2014](http://dx.doi.org/10.1126/science.1247579)]
+
 ]
 
-.footnote[[Coldrey et al 2022](https://doi.org/10.1111/cobi.13941)]
+---
+
+## Protected Areas and Shifting Climate...
+
+.pull-left[
+
+Protected areas may not be located in areas that will remain suitable for the species and ecosystems they were established to protect.
+
+Protected areas often protect fragments of the landscape (and thus climate space), and may not be large or connected enough to allow species to move in response to climate change.
+
+Having only fragments of the habitat and climate space of species or ecosystems may make them more vulnerable to extinction or collapse.
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%', fig.cap = "CC = Climate Change, LT = Landscape Transformation"}
+knitr::include_graphics("images/ntshanga2022.png")
+```
+
+.footnote[[Ntshanga 2022 _PhD thesis_](http://dx.doi.org/10.1126/science.1247579)]
+
+]
 
 ---
 
 ## Protecting Areas under Climate Change
 
-**Adaptation options**  
-- Climate refugia.  
-- Corridors and connectivity.  
-- Dynamic, adaptive management.  
+.pull-left[
+A systematic review by [Ranius et al (2022)](https://doi.org/10.1007/s13280-022-01779-z) identified 5 key principles for climate-smart protected area design and management (_adaptation_ options):
+
+- Ensure sufficient connectivity;
+- Protect climate refugia; 
+- Protect a few large rather than many small areas; 
+- Protect areas predicted to become important for biodiversity in the future;
+- Complement  permanently  protected  areas  with temporary protection.
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/ranius2022.webp")
+```
+
+.footnote[[Ranius et al 2022](https://doi.org/10.1007/s13280-022-01779-z)]
+
+]
+
+---
+
+## Protecting Areas under Climate Change
+
+The above address **direct impacts** of climate change:
+- Species loss, or range shifts towards cooler areas
+- Phenological mismatches (e.g. flowers and pollinators)
+- Habitat loss (corals, alpine, Arctic)
+
+...but there are also **indirect impacts** and interactions with other change drivers:
+- Invasive species
+- Disturbance regimes (fire, storms, pests)
+- Hydrological change
+
+Often, the most important first step is to manage these interacting threats better...
+
+
+---
+
+.left-column[
+## Park-level Climate Vulnerability?
+
+A combination of potential impacts and adaptive capacity...
+
+i.e. linked to change drivers and management effectiveness (slide 5)
+
+.footnote[[Coldrey et al 2022](https://doi.org/10.1111/cobi.13941)]
+
+]
+
+.right-column[
+```{r echo = F, fig.align = 'center', out.width = '90%', fig.cap = "There's more to the picture than just the impacts..."}
+knitr::include_graphics("images/coldrey2022.jpg")
+```
+]
+
+---
+
+## What about species the protected areas can't protect?
+
+.pull-left[
+### Assisted migration?
+
+Left to right: 
+
+**Assisted population migration**
+  — The human-assisted movement of populations within a species’ established range — Lower risk
+  
+**Assisted range expansion**
+  — The human-assisted movement of species to areas just outside their established range, facilitating or mimicking natural range expansion — Intermediate risk
+
+**Assisted long-distance migration** — The human-assisted movement of species to areas far outside their established range (beyond areas accessible through natural dispersal) — Higher risk
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/assisted_migration.jpg")
+```
+
+.footnote[[USDA](https://www.climatehubs.usda.gov/hubs/northwest/topic/northwest-reforestation-planting-suit-current-and-future-climates)]
+]
+
+---
+
+## What about species the protected areas can't protect?
+
+.pull-left[
+
+### _Ex situ_ conservation?
+  - Botanical gardens, zoos, etc
+
+But most facilities are already at capacity... And even these collections are vulnerable to loss - disease, funding, etc
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/cano2025_caption.png")
+```
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '80%'}
+knitr::include_graphics("images/cano2025.webp")
+```
+
+
+.footnote[[Cano et al. 2025](https://doi.org/10.1038/s41559-024-02633-z)]
+]
+
+---
+
+## What about species the protected areas can't protect?
+
+.pull-left[
+
+### Seed banks
+  - [Millennium Seed Bank Partnership](https://www.kew.org/wakehurst/whats-at-wakehurst/millennium-seed-bank)
+
+<br>
+
+> _"to keep every cog and wheel..."_
+
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+knitr::include_graphics("images/msb.jpeg")
+```
+
+]
 
 ---
 
@@ -475,9 +580,13 @@ knitr::include_graphics("images/coldrey2022.jpg")
 
 **Mitigation roles:** 
 
-- Carbon storage (forests, peatlands, mangroves).  
+--
+
+- Carbon storage (forests, peatlands, mangroves).
 - Avoided deforestation.  
 - REDD+ and policy integration.  
+- Co-benefits for biodiversity and ecosystem services.
+- Ecosystem-based adaptation (EbA).
 
 ---
 
@@ -490,65 +599,18 @@ knitr::include_graphics("images/duncanson5.webp")
 .footnote[[Duncanson et al. 2023](https://doi.org/10.1038/s41467-023-38073-9)]
 
 ---
-
-## Climate Policy Context
-
-- **Kunming–Montreal Global Biodiversity Framework** (30x30).  
-- **Paris Agreement** synergies.  
-- Nature-based solutions at global scale.  
-
----
-
-## Traditional vs. Climate-Smart PAs
-
-.pull-left[
-### Traditional
-- Isolated reserves  
-- Static boundaries  
-- Species assumed stable  
-- Vulnerable to climate change  
-]
-️
-.pull-right[
-### Climate-Smart
-- Networks & connectivity  
-- Refugia & buffer zones  
-- Adaptive management  
-- Integrated with people & landscapes  
-- Mitigation via carbon storage  
-]
-
----
-
-## Wrap-up
-
-- Climate change undermines the static PA model.  
-- Climate-smart approaches require connectivity, adaptation, and integration.  
-- Conservation may need to shift focus from protecting *places* to protecting *processes*.  
-
----
-
-## Discussion
-
-> Should conservation shift from protecting **places** to protecting **processes** under climate change?  
-
----
-
-## Further Reading
-
-- Hannah et al. (2020) *Protected Areas and Climate Change*.  
-- Watson et al. (2014) *The performance and potential of protected areas*.  
-- CBD (2022) *Kunming–Montreal Global Biodiversity Framework*.  
-
----
 class: middle
 
 ## Take-home
 
->**
-> - **
-
->**
+>
+> - PA effectiveness depends on both management and external pressures.
+- Global change drivers like climate change undermine the static PA model.  
+- Climate-smart approaches require connectivity, adaptation, and integration.
+- Unfortunately, there is much we have yet to learn...
+    - But we're improving our tools for monitoring and learning (and thus managing PAs)
+- PA can contribute to climate mitigation via carbon storage.
+>
 
 ---
 class: center, middle
