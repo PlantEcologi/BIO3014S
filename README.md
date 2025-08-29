@@ -25,14 +25,14 @@ _Note:_ These are currently last year's lectures and will be updated as we go. T
 1. [Space and Conservation](1_SpaceConservation1)
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. [Threat Assessment](3_ThreatAssessments)
-4. [Remote sensing of Biodiversity](4_RemoteSensingBio)
-5. [Biodiversity assessment and planning – practice and policy](Skowno_NationaBiodiversityAssessment_UCT_20250822.pdf) - Guest lecture by Dr Andrew Skowno, South African National Biodiversity Institute (SANBI)
+4. [Remote Sensing of Biodiversity](4_RemoteSensingBio)
+5. [Biodiversity Assessment and Planning – Practice and Policy](Skowno_NationaBiodiversityAssessment_UCT_20250822.pdf) - Guest lecture by Dr Andrew Skowno, South African National Biodiversity Institute
 6. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
     - Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
 7. Mapping Marine Ecosystems - Guest lecture by Dr Ralph Watson, UCT (slides on Amathuba)
-8. [Using spatial data to increase the impact of conservation action at the Nature Conservancy](Moncrieff_impacts_TNC.pdf) - Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
+8. [Using spatial data to increase the impact of conservation action at The Nature Conservancy](Moncrieff_impacts_TNC.pdf) - Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
 9. [Protecting Area in a World of Change](5_ProtectingArea)
-10. Revision/Reflection
+10. [Revision/Reflection](6_Summary)
 
 ## Practical (18th August): Mapping biodiversity
 
