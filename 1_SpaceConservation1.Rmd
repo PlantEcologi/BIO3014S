@@ -225,7 +225,7 @@ layout: false
 
 .pull-left[
 
-The biomes of South Africa...
+The biomes and ecosystems of South Africa...
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/biomes.png")
@@ -258,7 +258,7 @@ layout: false
 
 .pull-left[
 
-The remaining extent of the biomes of South Africa...
+The remaining extent of South African ecosystems...
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/biome_remnants.png")
@@ -370,7 +370,7 @@ class: middle
 
 ### This week
 
-- Practical this afternoon!
+- Today: Intro to the module
 - Tuesday: Area-Based Conservation
 - Wednesday: Threat assessments
 - Thursday: Remote Sensing of Biodiversity
@@ -378,85 +378,11 @@ class: middle
 
 ### Next week
 
-- Monday: Discussion of Gurney et al. 2023
-- Tuesday: Guest lecture by Dr Ralph Watson, UCT
+- Monday: Discussion of Gurney et al. 2023 and the **Practical!**
+- Tuesday (or Thursday): Protecting Area or Mystery Guest Lecture
 - Wednesday: Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
-- Thursday & Friday [TBC]
-
----
-
-class: center, middle
-
-### Practical: Mapping biodiversity
-
-We'll be using [***remap***](https://remap-app.org/) to play with mapping ecosystems using satellite remote sensing.
-
-Remap is an online mapping platform for people with little technical background in remote sensing. It enables you to quickly map and report the status of ecosystems, contributing to the IUCN Red List of Ecosystems.
-
-The exercise is aimed at giving you greater insight into many of the challenges faced and assumptions or pragmatic decisions required when mapping and monitoring ecosystems.
-
----
-
-class: center, middle
-
-### Land cover classification with [***remap***](https://remap-app.org/)
-
-```{r echo = F, fig.align = 'center', out.width = '100%'}
-knitr::include_graphics("images/remap_murray2019.jpg")
-```
-
-.center[from [Murray et al. 2019](https://doi.org/10.1111/2041-210X.13043)]
-
----
-
-class: center, middle
-
-### Land cover classification with [***remap***](https://remap-app.org/)
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/remap_murray2019b.jpg")
-```
-
-.center[from [Murray et al. 2019](https://doi.org/10.1111/2041-210X.13043)]
-
-
----
-
-### Steps
-
-1. Open [***remap***](https://remap-app.org/)
-2. Go to "tutorials", open and read through PDF Tutorials 1 and 2
-3. Select an area you know reasonably well about the size of the Cape Peninsula (e.g. the Cape Peninsula)
-4. Follow the instructions from tutorial 1, but for your area and time set to "present"
-  - We will have a discussion around how best to collect your training data
-5. Colour your classes something sensible 
- - take a screen shot of your classified map (for submission with your prac).
- - click "Results" and take a screen shot (for submission with your prac)
- - set your classification to semi-transparent, pan around and see how well your classifier has done
-6. Consider ways to improve your classification and address issues you noticed by 
-  - altering or adding to your training data (e.g. using a species or imagery-oriented approach)
-  - adding or dropping predictors
-7. Rerun your classification with your altered training data and repeat the screen shots in step 5 (you can redo this step a few times until you feel you have a reasonable classification)
-8. Now switch the time setting to "past". 
-  - check that your training data points have not changed (e.g. human-altered land cover) 
-  - classify and take screen shots 
-  - compare present and past classifications with slider as per tutorial 2
-9. Export your data as a JSON file labelled with your name
-
----
-
-### Assignment
-
-Contextualise your answers by highlighting how they relate to the approach we adopted in this practical and/or illustrate them (i.e. provide figures with captions) with examples from your analyses - e.g. where your classifier did well or badly or changed with different settings or training data. 
-
-1. What assumptions are required when using satellite remote sensing (SRS) to map ecosystems?
-2. What are the potential drivers of uncertainty when using SRS to develop an ecosystem type classification?
-3. What are the pros and cons of selecting your training data based on vegetation physiognomy versus the occurrence of focal species?
-4. What are the implications of the issues raised above for how and what we conserve?
-
-Each question is worth 4 marks and shouldn't be more than half a page (don't forget to illustrate your answers based on your results!!!). 6 marks are allocated for providing your figures and results with appropriate captions etc. An additional 2 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **24 marks**. 6 marks come from your answers to the questions on the reading, resulting in 30 marks for the module.
-
-Please provide your write-up as a ***PDF***. Please also submit your JSON file labelled with your name.
+- Thursday (or Tuesday): Protecting Area or Mystery Guest Lecture 
+- Friday: Revision/Reflection
 
 ---
 class: center, middle
