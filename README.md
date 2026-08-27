@@ -16,7 +16,7 @@ By the end of the module, students should:
 
 Throughout, students should consider the challenges, trade-offs and opportunities of applying these tools and concepts at local versus global scales.
 
-The module includes 8 lectures, a practical and a discussion of a journal article.
+The module includes 8 lectures, a practical and reading and discussing a journal article ([Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012)) and South Africa's [draft National Biodiversity Strategy and Action Plan (NBSAP)](https://pmg.org.za/call-for-comment/1755/).
 
 ### Lectures (24 August - 4 September 2026):
 
@@ -27,11 +27,11 @@ _Note:_ These are currently last year's lectures and will be updated as we go. T
 3. [Threat Assessment](3_ThreatAssessments)
 4. [Remote Sensing of Biodiversity](4_RemoteSensingBio)
 5. Guest lecture by Prof Andrew Skowno, formerly South African National Biodiversity Institute
-6. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
+6. [Protecting Area in a World of Change](5_ProtectingArea)
+7. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
     - Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
-7. [Protecting Area in a World of Change](5_ProtectingArea)
 8. Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
-9. TBD
+9. Discussion of and comments on South Africa's [draft National Biodiversity Strategy and Action Plan (NBSAP)](https://pmg.org.za/call-for-comment/1755/).
 10. [Revision/Reflection](6_Summary)
 
 ## Practical (31st August): Mapping biodiversity

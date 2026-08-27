@@ -636,14 +636,33 @@ background-image: url("images/Bioscape infographic_e3.jpg")
 background-size: contain
 
 ---
+
+.pull-left[
+```{r echo = F, fig.align = 'center', out.width= '80%'}
+knitr::include_graphics("images/spol.jpg")
+```
+]
+
+.pull-right[
+
+<br>
+
+<br>
+
+More about the project at [**bioscape.io**](https://www.bioscape.io)
+
+Or watch the movie [**here**](https://www.youtube.com/watch?v=Zcbbs3c7jE8)
+]
+
+---
 class: middle
 
 ## Take-home
 
->*Spatially explicit biodiversity and environmental data, monitored over the long term, but made available in near-real-time, are a critical basis for conservation planning and management*
+>*Spatially explicit biodiversity and environmental data, monitored over the long term, but made available in near-real-time, are a critical basis for conservation planning and management.*
 > - *satellite remote sensing is pretty much the only way this can be achieved*
 
->*There are many ways to measure biodiversity (or factors affecting biodiversity like fire or weather), and satellite data can be used to measure a large number of them*
+>*There are many ways to measure biodiversity (or factors affecting biodiversity like fire or weather), and satellite data can be used to measure a large number of them.*
 
 >*The number and variety of satellite sensor types is rapidly expanding, providing new and better ways to measure biodiversity all the time!*
 
@@ -651,7 +670,7 @@ class: middle
 
 >*Ground data are essential for calibrating and validating almost any remotely-sensed data product.*
 
->*Local understanding of the ecology of the species or ecosystems under study is essential for the interpretation (and often analysis) of almost any biodiversity-related remote sensing product*
+>*Local understanding of the ecology of the species or ecosystems under study is essential for the interpretation (and often analysis) of almost any biodiversity-related remote sensing product.*
 > - *Many global products fall short because of this issue*
 
 ---
