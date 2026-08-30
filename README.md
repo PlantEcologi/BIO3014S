@@ -44,7 +44,7 @@ Ecosystems are one level in the hierarchy of biodiversity _sensu_ [Noss 1990](ht
 
 Remap is an online mapping platform for people with little technical background in remote sensing. It enables you to quickly map and report the status of ecosystems, contributing to the IUCN Red List of Ecosystems.
 
-Read through the steps below and assignment instructions before getting started.
+Read through the assignment instructions and steps below _**BEFORE**_ getting started.
 
 ### Steps
 
@@ -62,10 +62,11 @@ Read through the steps below and assignment instructions before getting started.
  - set your classification to semi-transparent, pan around and see how well your classifier has done
 6. Consider ways to improve your classification and address issues you noticed by 
   - altering or adding to your training data e.g. 
+      
       - adding more observations per class
       - adding new classes (or merging similar classes)
-      - using an imagery vs species-oriented approach
-  - adding or dropping predictors
+      - using an imagery vs species-oriented approach (see step 4 re iNaturalist)
+      - adding or dropping predictors
 7. Rerun your classification with your altered training data and repeat the screen shots in step 5 ("Map 2" and "Results 2" - you can redo this step a few times until you feel you have a reasonable classification, but you only need submit your final map and results)
 8. Now switch the time setting to "past". 
   - check that your training data points have not changed (e.g. many have have been transformed to human-altered land cover, or sand if it is an active dune landscape, etc) 
@@ -86,4 +87,4 @@ Please answer the questions below. Contextualise your answers by highlighting ho
 
 Each question is worth 4 marks and shouldn't be more than half a page (don't forget to illustrate your answers based on your results!!!). 6 marks are allocated for providing your figures and results with captions. An additional 2 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **24 marks**. 6 marks come from your answers to the questions on the reading, resulting in 30 marks for the module.
 
-Please provide your write-up as a ***PDF*** by the **18th September**. Please also submit your JSON file labelled with your name.
+Please provide your write-up as a ***PDF*** (not an MS Word document!!!) and also upload your JSON file, both labelled with your name, by the **18th September**.
