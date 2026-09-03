@@ -26,11 +26,11 @@ _Note:_ These are currently last year's lectures and will be updated as we go. T
 2. [Area-Based Conservation](2_AreaBasedConservation)
 3. [Threat Assessment](3_ThreatAssessments)
 4. [Remote Sensing of Biodiversity](4_RemoteSensingBio)
-5. Guest lecture by Prof Andrew Skowno, formerly South African National Biodiversity Institute
+5. [Guest lecture by Prof Andrew Skowno, formerly South African National Biodiversity Institute](Skowno_NationaBiodiversityAssessment_UCT_20260828.pdf)
 6. [Protecting Area in a World of Change](5_ProtectingArea)
 7. Discussion of [Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012). 
     - Please answer the questions in the [Google Form](https://forms.gle/PtAA4HzWHoLKG1R37) prior to the discussion. These answers and participation in the discussion count 20% of your mark for this module.
-8. Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy
+8. [Guest lecture by Dr Glenn Moncrieff, The Nature Conservancy](Moncrieff_UCT_forecasting_biodiversity_2026.pdf)
 9. Discussion of and comments on South Africa's [draft National Biodiversity Strategy and Action Plan (NBSAP)](https://pmg.org.za/call-for-comment/1755/).
 10. [Revision/Reflection](6_Summary)
 
