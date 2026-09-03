@@ -169,8 +169,10 @@ knitr::kable(
     - Biodiversity > ecosystem services > climate change > human well-being
     - Clear in IUCN timeline, but also in Glenn and Andrew's talks re TNC and SANBI approach
     - More hooks to achieve conservation, but also more complexity and trade-offs!
-    
---
+
+---
+
+# Cross-cutting themes cont.
 
 - Increased focus on repeatability/reproducibility of methods
     - allow regular updates and comparisons over time or between regions/countries
@@ -190,13 +192,17 @@ Evolution of Remote Sensing:
 - From single sensor to multiple sensors
 - Complex models to integrate multiple data sources
 
-Ralph's approach vs prac?
-- Prac = supervised classification
-    - We specified the classes and training data
-- Ralph = unsupervised classification + field validation
-    - Let the data tell us what the classes are
-    - Needs validation!
-    - Some level of expert input through decisions on input data and number of classes
+---
+
+class: center, middle
+
+# Questions?
+
+I had ChatGPT generate some questions and filtered out the (few) bad ones and put them in a Google doc [_**here**_](https://docs.google.com/document/d/1ukcrU4iST0RBfqYC8F33kdNFpWwQAuYu1FPlk62GHaM/edit?usp=sharing).
+
+It actually includes most of the questions I have asked in past papers (which were not AI generated).
+
+I also had it add a section giving detailed instructions on how to answer a question. PLEASE READ IT!!!
 
 ---
 
