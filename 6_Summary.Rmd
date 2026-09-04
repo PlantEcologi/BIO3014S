@@ -177,6 +177,7 @@ knitr::kable(
 - Increased focus on repeatability/reproducibility of methods
     - allow regular updates and comparisons over time or between regions/countries
     - transparency and trust
+    - facilitates better monitoring and evaluation
 
 - Increased focus on forecasting 
     - of impacts - to help plan/prioritise conservation actions
@@ -191,6 +192,87 @@ Evolution of Remote Sensing:
 - From single date to time series
 - From single sensor to multiple sensors
 - Complex models to integrate multiple data sources
+
+---
+
+## How should you think about a conservation problem?
+
+.left-column[
+
+*What are we trying to conserve?*
+
+*Where is it?*
+
+*What is happening to it?*
+
+*Where should we act?*
+
+*What should we do?*
+
+*Is it working?*
+
+*What should we do differently?*
+
+]
+
+.right-column[
+
+Species / ecosystems / ecological processes / ecosystem services
+
+Mapping biodiversity
+
+Threats / trends / condition
+
+Priorities / representation / trade-offs
+
+Protection / management / restoration / sustainable use
+
+Monitoring / effectiveness / attribution / additionality
+
+Forecasting / iteration / adaptive decision-making / new or ignored priorities?
+
+]
+
+.footnote[_At every step consider: scale, assumptions, uncertainty, trade-offs_]
+
+---
+
+### What do I mean by scale, assumptions, uncertainty, trade-offs?
+
+.pull-left[
+
+**For example:**
+
+Satellite measurement
+
+↓
+
+ecosystem map
+
+↓
+
+inference about habitat/biodiversity
+
+↓
+
+conservation priority
+
+↓
+
+management decision
+]
+
+.pull-right[
+
+<br>
+
+> _What assumptions, uncertainty, scale match/mismatch and trade-offs apply at each step?_
+
+<br>
+
+Measurement ≠ inference ≠ decision
+
+]
 
 ---
 
