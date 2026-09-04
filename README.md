@@ -14,7 +14,7 @@ By the end of the module, students should:
 - understand the principles of spatial conservation planning and how they are applied,
 - know what remote sensing is, how it works, and how it can be used for mapping and monitoring biodiversity - especially with application to area-based conservation
 
-Throughout, students should consider the challenges, trade-offs and opportunities of applying these tools and concepts at local versus global scales.
+Throughout, students should consider the challenges (assumptions, uncertainties, logistics/feasibility), trade-offs and opportunities of applying these tools and concepts at local versus global or short vs long scales.
 
 The module includes 8 lectures, a practical and reading and discussing a journal article ([Gurney et al. 2023](https://doi.org/10.1016/j.oneear.2023.01.012)) and South Africa's [draft National Biodiversity Strategy and Action Plan (NBSAP)](https://pmg.org.za/call-for-comment/1755/).
 
