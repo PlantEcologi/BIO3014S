@@ -83,7 +83,7 @@ Please answer the questions below. **Contextualise your answers by highlighting 
 1. What assumptions are required when using satellite remote sensing (SRS) to map ecosystems? (_**4 marks**_)
 2. What are the potential drivers of uncertainty when using SRS to develop an ecosystem type classification? (_**4 marks**_)
 3. What are the pros and cons of selecting your training data based on vegetation physiognomy (e.g. forest, shrubland, grassland, etc) versus the occurrence of focal species?  (_**4 marks**_)
-4. What are the implications of the issues raised above for how and what we conserve?  (_**4 marks**_)
+4. What are the implications of the issues raised in the previous three questions for how and what we conserve?  (_**4 marks**_)
 
 Each question is worth 4 marks and shouldn't be more than half a page (Don't forget to illustrate your answers based on your results!!! This accounts for half the mark.). 6 marks are allocated for providing your figures and results with captions. An additional 2 marks will be awarded for providing appropriately cited and relevant references (and reference list). This brings the total mark allocation to **24 marks**. 6 marks come from your answers to the questions on the reading, resulting in 30 marks for the module.
 
